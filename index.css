@@ -22,12 +22,14 @@ ul{
     justify-content: space-between;
 }
 
-#espace-recherche{
-display: flex;
-justify-content: flex-start;
-align-items: flex-start;
 
 
+
+}
+
+#rechercher{
+    display: flex;
+    text-align: justify;
 }
 
 
