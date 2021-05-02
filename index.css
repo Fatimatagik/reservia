@@ -1,3 +1,7 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 h1{
     color:blue;
     
@@ -18,5 +22,7 @@ ul{
     justify-content: space-between;
 }
 
-/* 
+.annonce-hebergement{
+    background-color: blueviolet;
 }
+
