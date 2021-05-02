@@ -22,7 +22,46 @@ ul{
     justify-content: space-between;
 }
 
-.annonce-hebergement{
-    background-color: blueviolet;
+.annonce-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between
+
 }
 
+.annonce-hebergement{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap ;
+    width: 10%;
+    height: 50px; ;
+
+}
+
+.image-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 55%;
+    height: 10em;
+}
+
+.annonces-populaires{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column; center;
+
+    width: 25%;
+    height: 10em;
+}
+
+.image-item2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 55%;
+    height: 10em;
+}
