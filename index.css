@@ -1,5 +1,7 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin: auto;
+    padding: 0px;
 }
 
 h1{
@@ -39,6 +41,7 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
+    position: relative;
     
     
 
@@ -53,6 +56,9 @@ ul{
     height:auto;
     object-fit: cover;
     background-color: darkgoldenrod;
+    position: relative;
+    padding: 20%;
+    margin: 50px;
 
 }
 
@@ -72,6 +78,9 @@ ul{
     flex-direction: column;
     background-color: darkcyan;
     height: auto;
+    position: relative;
+    padding: 10;
+    margin: 50px;
 
     width: 25%;
     height: 10em;
