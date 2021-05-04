@@ -96,10 +96,9 @@ ul{
     align-items: center;
     justify-content: flex-end;
     background-color: darkcyan;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     height: 5%;
-    position: static;
     padding: 3%;
     margin: 7px;
     width: 31%;
