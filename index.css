@@ -71,7 +71,7 @@ ul{
 
 .hebergements-container{
     display: flex;    width: 50%;
-    align-items: center
+    align-items: center;
     height: 5%;
     padding: 2%;
     margin: 3%;
@@ -81,7 +81,6 @@ ul{
     background-color: rgb(255, 0, 170);
     
     
-}
 
 .image-item{
     display: flex;
