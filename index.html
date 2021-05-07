@@ -13,45 +13,52 @@
 
 <body>
     <header>
-        <h1> Reservia</h1>
+        <h1> Reservia</h1> <!--Attention mettre l'image de OC (image logo)-->
 
         <nav>
             <ul>
-                <li>Hébergement</li>
-                <li>Activités</li>
+                <!--Mettre l'ancre sur onglet "hébergement et Activités"-->
+                <li id="Hebergement-a-Marseille">Hébergement</li>
+                <li id="Activites">Activités</li>
                 <li>S'inscrire</li>
             </ul>
         </nav>
     </header>
 
-
-
     
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <div id="espace-recherche"></div>
-        <p>En plein centre ou en pleine nature</p>
+
+        <div id="espace-recherche">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ou en pleine nature</p>
+            <form action="#">
+                <input type="text" name="ville" id="ville" placeholder="Marseille, France">
+            
+
+                <input type="submit" name="rechercher" id="rechercher" value="Rechercher">
         
-        <form action="php">
-            <input type="text" name="ville" id="ville">
-            <p> Marseille, France</p>
+            </form> 
+            <div class="filtres">
+                <h2>Filtres</h2>
+                <!-- <i class="fas fa-money-bill-wave"></i>
+                    <input type="button">
+                    <p>Economique</p>
+                <i class="fas fa-male"></i> 
+                    <input type="button">
+                    <p>Familial</p>
+                <i class="fas fa-heart"></i> 
+                    <input type="button">
+                    <p>Romantique</p>
+                <i class="fas fa-dog"></i>
+                    <input type="button">
+                    <p>Animaux autorisés</p> -->
+            </div>  
 
-            <input type="search" name="rechercher" id="rechercher">
-            <p> Rechercher</p>
-        </form> 
+      
+        </div>
 
-        <p>Filtres</p>
-        <i class="fas fa-money-bill-wave"></i>
-            <input type="button">
-            <p>Economique</p>
-        <i class="fas fa-male"></i> 
-            <input type="button">
-            <p>Familial</p>
-        <i class="fas fa-heart"></i> 
-            <input type="button">
-            <p>Romantique</p>
-        <i class="fas fa-dog"></i>
-            <input type="button">
-            <p>Animaux autorisés</p>
+        
+       
+
 
          
         
@@ -65,10 +72,8 @@
     </div>
     <div class="annonce-container"> 
 
-        <section class="annonces-hebergements">
-            <div class="hebergements-container">  
-            <h2>Hébergement à Marseille</h2></br>
-
+        <section class="annonce-container-hebergement">    
+            <h2 a href="#Hebergement-a-Marseille">Hébergement à Marseille</h2></br>
 
             <div class="annonce-hebergement">
                 <img class="image-item" src="./photo/images/hebergements/2_large/marcus-loke-l.jpg" alt="lits superposes">
@@ -106,7 +111,9 @@
         </section>
 
         <section class="annonces-populaires">
+          
             <h2 class="populaires">Les plus populaires</h2>
+            <div> class="hebergement-populaire
             <div>
                 <img class="image-item2" src="./photo/images/hebergements/3_medium/emile-guillemot-m.jpg" alt="chambre verte">
                 <p>Hôtel le soleil du Matin</p></br>
@@ -123,6 +130,7 @@
                 <p>Hôtel Tout Bleu et Blanc</p></br>
                 <p>Nuit à partir de 69€</p>
             </div>
+            </div>
 
             <p>Afficher plus</p>
      </div>
@@ -133,7 +141,8 @@
 
     <div class="marseille">
     <section>
-        <h2 class="activites">Activités à Marseille</h2>
+        <h2 a href="#Activites" class="activites">Activités à Marseille</h2>
+        <div class="activites-contenaires">
         <div class="annonce-activite">
             <img class="image-item3"src="./photo/images/activites/3_medium/reno-laithienne-m.jpg" alt="port avec bateaux">
             <p>Vieux Port</p>
@@ -157,6 +166,7 @@
         <div class="annonce-activite">
             <img class="image-item3" src="./photo/images/activites/3_medium/lena-paulin-m.jpg" alt="parc avec cascade">
             <p>Parc Longchamp</p>
+        </div>
         </div>
     </section>
     </div>

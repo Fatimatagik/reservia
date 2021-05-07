@@ -79,15 +79,16 @@ ul{
     flex-wrap: wrap;
     float: left;
     background-color: rgb(255, 0, 170);
-    
+    }
     
 
 .image-item{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 55%;
-    height: 10em;
+    width: 5px;
+    height: 5px;
+    text-align:left;
 }
 
 .annonces-populaires{
