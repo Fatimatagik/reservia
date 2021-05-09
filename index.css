@@ -2,17 +2,40 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: auto;
     padding: 30px;
-    height: 50%;
+    height: auto;
+    width: auto;
 }
 
+.head-nav{
+    display: flex;
+    justify-content: space-between;
+    height:20%;
+    width: 100%;
+}
 h1{
     color:blue;
-    
+    justify-content: flex-start;   
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 15px;
+    width: 15px;
+    float: left;
+}
+
+#photo-logo{
+display: flex;
+justify-content: flex-start;
+height: 50px;
+width: 50px;
 }
 
 nav{
     justify-content: flex-end;
     width: 30%;
+
 }
 
 header{
@@ -24,11 +47,20 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    flex-direction: row;
 }
 
+#nav-list{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width:30%;
+    margin:30%;
+    word-spacing :30%;
+    text-align: end;
+    float: right;
 
-
-
+}
 
 
 #rechercher{
