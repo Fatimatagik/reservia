@@ -22,9 +22,9 @@
             <ul>
 
                 <div id="nav-list">
-                    <div><p><a href="#">Hébergement</a> </p></div>
-                    <div><p><a href="#">Activités</p></div>
-                    <div><p>S'inscrire</p></div>    
+                    <div class="list"><li><a href="#">Hébergement</a> </li></div>
+                    <div class="list"><li><a href="#">Activités</li></div>
+                    <div class="list"><li>S'inscrire</li></div>    
                 </div>
                 <!--Mettre l'ancre sur onglet "hébergement et Activités"-->              
             </ul>
@@ -35,18 +35,25 @@
 
     
 
-        <div id="espace-recherche"> <!--esp-->
+        <div class="space-search">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ou en pleine nature</p>
+
+
             <form action="#">
                 <div class="container-search">
                     <input type="text" name="ville" id="ville" placeholder="Marseille, France">
                     <input type="submit" name="rechercher" id="rechercher" value="Rechercher">   
+                </div>   
+            </form> 
+
+            <div class="filtres">
+                <div><!--mettre un titre a la div-->
+                <h2>Filtres</h2>    
                 </div>
                 
-            </form> 
-            <div class="filtres">
-                <h2>Filtres</h2>
+
+                <div class="filtre-listing">
                 <i class="fas fa-money-bill-wave"></i>
                     <input type="button">
                     <p>Economique</p>
@@ -58,7 +65,9 @@
                     <p>Romantique</p>
                 <i class="fas fa-dog"></i>
                     <input type="button">
-                    <p>Animaux autorisés</p> 
+                    <p>Animaux autorisés</p>    
+                </div>
+               
             </div> 
         </div>
 

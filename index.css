@@ -6,6 +6,14 @@ body{
     width: auto;
 }
 
+header{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color: coral;
+    justify-content: space-between;
+}
+
 .head-nav{
     display: flex;
     justify-content: space-between;
@@ -34,7 +42,8 @@ width: 50px;
 
 nav{
     justify-content: flex-end;
-    width: 30%;
+    width: 40%;
+    word-spacing: 20%;
 
 }
 
@@ -45,27 +54,45 @@ header{
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     list-style: none;
     flex-direction: row;
+    padding:30%;
 }
 
 #nav-list{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    width:30%;
+    width:70%;
     margin:30%;
     word-spacing :30%;
     text-align: end;
     float: right;
-
 }
 
-
-#rechercher{
+.list{
     display: flex;
-    text-align: justify;
+    justify-content:space-evenly;
+    width: 60%;
+    word-spacing :20%%;
+}
+
+.container-search{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+
+.space-search{
+   display: flex;
+   background-color: darkgoldenrod; 
+   width: 100%;
+}
+.filtre-listing{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
 }
 
 
@@ -73,7 +100,7 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px;;
+    margin: 10px;;
     padding: 50px;
     height: 40%;
     width: 100%;
