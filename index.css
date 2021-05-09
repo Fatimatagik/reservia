@@ -12,6 +12,7 @@ header{
     width: 100%;
     background-color: coral;
     justify-content: space-between;
+    font-size: 60%;
 }
 
 .head-nav{
@@ -75,7 +76,7 @@ ul{
     display: flex;
     justify-content:space-evenly;
     width: 60%;
-    word-spacing :20%%;
+    word-spacing :20%;
 }
 
 .container-search{
@@ -88,6 +89,8 @@ ul{
    display: flex;
    background-color: darkgoldenrod; 
    width: 100%;
+   font-size: 60%; justify-content: start;
+   flex-direction: column;
 }
 .filtre-listing{
     display: flex;
@@ -100,8 +103,6 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 10px;;
-    padding: 50px;
     height: 40%;
     width: 100%;
     background-color: crimson;
@@ -118,10 +119,8 @@ ul{
     flex-direction: row;
     flex-wrap: wrap ;
     justify-content: space-between;
-    width: 5%;
-    height: 5px;;
-    padding: 7%;
-    margin: 3%;
+    width: 60%;
+    height: 55x;
     border-radius: 15px;
     background-color: blue;
     
@@ -157,10 +156,8 @@ ul{
     background-color: darkcyan;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 5%;
-    padding: 3%;
-    margin: 7px;
-    width: 31%;
+    height: 45%;
+    width: 35%;
     float: right;
 }
 
