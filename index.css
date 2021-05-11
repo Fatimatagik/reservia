@@ -48,10 +48,6 @@ nav{
 
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-}
 
 ul{
     display: flex;
@@ -86,11 +82,11 @@ ul{
 }
 
 .space-search{
-   display: flex;
-   background-color: darkgoldenrod; 
-   width: 100%;
-   font-size: 60%; justify-content: start;
-   flex-direction: column;
+    display: flex;
+    background-color: darkgoldenrod; 
+    width: 100%;
+    font-size: 80%; justify-content: start;
+    flex-direction: column;
 }
 .filtre-listing{
     display: flex;
@@ -101,31 +97,25 @@ ul{
 
 .annonce-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 40%;
-    width: 100%;
-    background-color: crimson;
-    
+
+
+}
+
+
+#heb-title{
+    font-size: 45%;
+}
+
+.annonce-container-hebergement{
+    background-color: lightgray;
+    width: 75%;
 
 }
 
 
 
 
-.annonce-hebergement{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    justify-content: space-between;
-    width: 60%;
-    height: 55x;
-    border-radius: 15px;
-    background-color: blue;
-    
-
-}
+/*
 
 .hebergements-container{
     display: flex;    width: 50%;
@@ -138,17 +128,19 @@ ul{
     float: left;
     background-color: rgb(255, 0, 170);
     }
-    
+    */
 
 .image-item{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 5px;
-    height: 5px;
-    text-align:left;
+    width: 50px;
 }
 
+
+.annonces-contenaire-populaires{
+    background-color: blueviolet;
+    width: 25%;
+    margin-left: 10px;
+    padding: 20px;
+}
 .annonces-populaires{
     display: flex;
     align-items: center;
@@ -161,14 +153,13 @@ ul{
     float: right;
 }
 
-.image-item2{
+.image-pop{
+    width: 50px;
+}
+
+.populaire-pop{
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
     flex-direction: column;
-    width: 55%;
-    height: 10em;
-    object-fit: cover;
 }
 
 .marseille{
@@ -178,3 +169,9 @@ ul{
 .image-item3{
     display: flex;
 }
+
+footer{
+    display: flex;
+
+}
+
