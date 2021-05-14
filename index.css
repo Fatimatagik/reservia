@@ -12,7 +12,7 @@ header{
     width: 100%;
     background-color: coral;
     justify-content: space-between;
-    font-size: 60%;
+    font-size: 85%;
 }
 
 .head-nav{
@@ -81,8 +81,9 @@ ul{
     display: flex;
     background-color: darkgoldenrod; 
     width: 100%;
-    font-size: 80%; justify-content: start;
+    font-size: 85%; justify-content: start;
     flex-direction: column;
+
 }
 .filtre-listing{
     display: flex;
@@ -186,11 +187,32 @@ flex-direction: row;
 }
 .image-activite{
     width: 250px;
+    margin: 10px;
+}
+
+.activites-contenaires{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#act-pict{
+    display: flex;
+    flex-direction: column;
+    width:125px ;
+}
+
+#mars-pict{
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
     background-color: salmon;
     display: flex;
+    justify-content: space-between;
+    padding: 30px;
 
 }
 
