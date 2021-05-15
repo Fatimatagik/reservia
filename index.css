@@ -186,7 +186,7 @@ a:hover{
     width: 100%;
     margin: 5px;
     justify-content: space-around;
-    object-fit: ;
+
 }
 
 #affiche-space{
@@ -222,6 +222,7 @@ a:hover{
 */
 .image-pop{
     width: 250px;
+    object-fit: cover;
 }
 
 .populaire-pop{
