@@ -40,9 +40,12 @@
 
         <form action="#">
             <div class="container-search">
-                <i class="fas fa-map-marker-alt"></i> 
-                <input type="text" name="ville" id="ville" placeholder="Marseille, France">
-                <input type="submit" name="rechercher" id="rechercher" value="Rechercher">   
+                <div id="search-body"> 
+                    <i class="fas fa-map-marker-alt"></i> 
+                    <input type="text" name="ville" id="ville" placeholder="Marseille, France">
+                    <input type="submit" name="rechercher" id="rechercher" value="Rechercher">       
+                </div>
+               
             </div>   
         </form> 
 
@@ -92,7 +95,10 @@
         <div class="annonce-container">
             <section class="annonce-container-hebergement"> <!-- partie hébergement de Marseille-->
                 
-                <a href="#"><h2>Hébergement à Marseille</h2></a><!-- mettre le h2 a l'interieure de"a"-->
+                <div id="heb-title">
+                <a href="#"><h2>Hébergement à Marseille</h2></a><!-- mettre le h2 a l'interieure de"a"-->    
+                </div>
+                
                 <div class="annonce-hebergement">
                     <media>
                         <img class="image-item" src="./photo/images/hebergements/2_large/marcus-loke-l.jpg" alt="lits superposes">

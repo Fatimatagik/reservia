@@ -106,6 +106,14 @@ a:hover{
     border: blueviolet solid 1px;
     border-radius: 10%;
     object-fit: cover;
+    color: #065fc0;
+}
+
+#search-body{
+    width: 30%;
+    border: steelblue solid 1px;
+    justify-content: space-around;
+    padding: 3px%;
 }
 
 
@@ -118,6 +126,9 @@ a:hover{
 
 #heb-title{
     font-size: 45%;
+    display: flex;
+    justify-content: start;
+    
 }
 
 .annonce-container-hebergement{
