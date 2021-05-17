@@ -168,6 +168,7 @@ a:hover{
     width: 250px;
     margin: 20px;
     object-fit: cover;
+    border-radius: 15%;
 }
 
 .heb-box-cards{
@@ -188,9 +189,23 @@ a:hover{
     justify-content: space-around;
 
 }
+.annonce-hebergement{
+    flex-direction: column;
+    justify-content:center ;
+    border: solid 1px yellow;
+    height: 90%;
+}
 .body-image{
+    border: tomato solid 1px;
+    justify-content: center;
+    align-items:flex-start;
 
 }
+
+.description-hot{
+    text-align: center;
+}
+
 
 #affiche-space{
     display: flex;
