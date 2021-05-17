@@ -143,10 +143,15 @@ a:hover{
     margin-bottom: 10px;
     align-items: center;
 
+}
+#pop-title{
+    font-size: 85%;
+    display: flex;
+    justify-content: start;
+    border: tomato solid 1px;
+    width: 100%;
 
 }
-
-
 
 
 /*
@@ -190,7 +195,6 @@ a:hover{
 
 }
 .annonce-hebergement{
-    flex-direction: column;
     justify-content:center ;
     border: solid 1px yellow;
     height: 90%;
@@ -221,6 +225,7 @@ a:hover{
     margin-left: 10px;
     padding: 20px;
     margin-bottom: 10px;
+    flex-direction: column;
 }
 
 
@@ -241,12 +246,25 @@ a:hover{
 .image-pop{
     width: 250px;
     object-fit: cover;
+    border-radius: 15%;
 }
 
 .populaire-pop{
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
+
+.hebergement-populaire{
+    display: flex;
+    justify-content: center;
+    border: green solid 1px;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 100%;
+
+}
+
 
 .marseille{
     display:flex
