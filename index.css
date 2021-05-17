@@ -239,11 +239,15 @@ a:hover{
 
 .partie-marseille{
     background-color: cornflowerblue;
-width: 100%;
-height: 35%;
-margin-bottom: 10px;
-display: flex;
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
 }
+
 .image-activite{
     width: 250px;
     margin: 10px;
@@ -251,11 +255,16 @@ display: flex;
 
 .activites-contenaires{
     display: flex;
-    margin: 10px;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+    justify-content: space-between;
+    border: brown solid 1px;
 }
 
 .annonce-act{
     display: flex;
+    flex-direction: column;
     width:125px;
     border: 1px solid black;
 }
@@ -273,6 +282,8 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    border: blue solid 1px;
+    width: 100%;
 
 }
 
