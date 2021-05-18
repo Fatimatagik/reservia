@@ -301,7 +301,11 @@ a:hover{
 .image-activite{
     width: 250px;
     margin: 10px;
+    border-radius: 15%;
 }
+
+
+
 
 .activites-contenaires{
     display: flex;
@@ -315,13 +319,18 @@ a:hover{
 .annonce-act{
     display: flex;
     flex-direction: column;
-    width:125px;
+    width: 100px;
     border: 1px solid black;
+    justify-content: center;
 }
 
 .annonce-activite{
     border: blue solid 1px;
 
+}
+
+.des-act{
+    text-align: center;
 }
 
 
