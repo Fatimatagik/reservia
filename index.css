@@ -252,20 +252,32 @@ a:hover{
 .populaire-pop{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 5px;
+    justify-content: center;
 }
 
 .hebergement-populaire{
     display: flex;
     justify-content: center;
     border: green solid 1px;
-    margin-left: 10px;
+    margin: 20px;
     flex-direction: column;
     width: 100%;
 
 }
 
+.descrip-pop{
+    display: flex;
+    text-align: center;
+}
 
+.body-pop{
+    border: tomato solid 1px;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+}
 .marseille{
     display:flex
 }
@@ -279,6 +291,11 @@ a:hover{
     flex-direction: column;
     padding: 10px;
 
+}
+
+#title-act{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .image-activite{
