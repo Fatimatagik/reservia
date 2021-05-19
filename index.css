@@ -218,6 +218,12 @@ a:hover{
     width: 100%;
 }
 
+.far fa-star{
+    position: absolute;
+    height:2em;
+    width: 0.7em;
+    background-color: currentColor;
+}
 
 .annonces-contenaire-populaires{
     background-color: #F2F2F2;
