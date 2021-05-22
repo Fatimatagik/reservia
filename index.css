@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Raleway', sans-serif;
     margin: auto;
@@ -6,6 +7,10 @@ body{
     width: auto;
 }
 
+
+******************************************
+----------------EN-TÊTE---------
+*******************************************
 header{
     display: flex;
     height: 150px;
@@ -22,11 +27,14 @@ header{
     width: 90%;
     /* border: 1px solid green; */
 }
+
+
 h1{
     color:blue;
     justify-content: flex-start;   
 }
 
+++++++++++++++++++++++++++++++++++++++++++
 #logo{
     height: 15px;
     width: 10%;
@@ -37,7 +45,7 @@ h1{
 height: 50px;
 width: 100px;
 }
-
++++++++++++++++++++++++++++++++++++++++
 nav{
     justify-content: flex-end;
     width: 40%;
@@ -45,9 +53,7 @@ nav{
     /* border: 1px solid rgb(204, 11, 11); */
     height: 100px;
 
-
 }
-
 
 ul{
     display: flex;
@@ -67,7 +73,7 @@ a:visited{
 a:hover{
     color: red;
 }
-
+++++++++++++++++++++++++++++++++++++
 .container-search{
     display: flex;
     justify-content: start;
@@ -84,6 +90,8 @@ a:hover{
     padding: 10px;
 
 }
+++++++++++++++++++++++++++++++++++++
+
 .filtre-listing{
     display: flex;
     justify-content: space-between;
@@ -100,8 +108,6 @@ a:hover{
 
 }
 
-
-
 #search-body{
     width: 30%;
     border: steelblue solid 1px;
@@ -109,12 +115,34 @@ a:hover{
     padding: 3px;
 }
 
-
-.annonce-container{
-    display: flex;
-
+.filtre{
+    font-size: 2em;
 
 }
+
+.filtre-button{
+    color: black;
+    background: white;
+    border: 6px solid #F2F2F2;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.badge{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:  #DEEBFF;
+    text-align: center;
+    align-items: center;
+    padding-top: 40%;
+}
+
+******************************************
+-------------PARTIE PRINCIPALE ---------
+*******************************************
+        *Partie hébergement
+        +++++++++++++++++++
 
 
 #heb-title{
@@ -123,9 +151,8 @@ a:hover{
     justify-content: start;
     border: lawngreen solid 1px;
     width: 100%;
-
 }
-
+        
 .annonce-container-hebergement{
     background-color: #F2F2F2;
     width: 75%;
@@ -135,21 +162,11 @@ a:hover{
     margin-right: 10px;
     margin-bottom: 10px;
     align-items: center;
-
 }
-#pop-title{
-    font-size: 85%;
-    display: flex;
-    justify-content: start;
-    border: tomato solid 1px;
-    width: 100%;
-
-}
-
 
 /*
 
-.hebergements-container{
+.hebergements-containere
     display: flex;    width: 50%;
     align-items: center;
     height: 5%;
@@ -169,7 +186,7 @@ a:hover{
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
 }
-
+    
 .heb-box-cards{
     display: flex;
     flex-direction: row;
@@ -186,32 +203,32 @@ a:hover{
     width: 100%;
     margin: 5px;
     justify-content: space-around;
-
 }
+
 .annonce-hebergement{
     justify-content:center ;
     border: solid 1px yellow;
     height: 90%;
 }
+
 .body-image{
     border: tomato solid 1px;
     justify-content: center;
     align-items:flex-start;
-
 }
 
 .description-hot{
     text-align: center;
 }
-
-
+    
+    
 #affiche-space{
     display: flex;
     justify-content: start;
     border: magenta solid 1px;
     width: 100%;
 }
-
+    
 .far fa-star{
     position: absolute;
     height:2em;
@@ -219,6 +236,25 @@ a:hover{
     background-color: currentColor;
 }
 
+
+i{
+    color: #0065FC;
+}
+
+.gris{
+    color: gray;
+}
+            *Partie populaire
+            ++++++++++++++++++
+
+#pop-title{
+    font-size: 85%;
+    display: flex;
+    justify-content: start;
+    border: tomato solid 1px;
+    width: 100%;
+}
+            
 .annonces-contenaire-populaires{
     background-color: #F2F2F2;
     width: 25%;
@@ -228,7 +264,6 @@ a:hover{
     flex-direction: column;
     justify-content: center;
 }
-
 
 /*
 .annonces-populaires{
@@ -249,7 +284,6 @@ a:hover{
     object-fit: cover;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-    
 }
 
 .populaire-pop{
@@ -270,6 +304,8 @@ a:hover{
 
 }
 
+
+
 .descrip-pop{
     display: flex;
     text-align: center;
@@ -283,6 +319,11 @@ a:hover{
 }
 
 
+
+
+            *Partie activité
+            ++++++++++++++++++
+
 .partie-marseille{
     width: 100%;
     height: 35%;
@@ -290,21 +331,19 @@ a:hover{
     display: flex;
     flex-direction: column;
     padding: 10px;
-
 }
-
+                
 #title-act{
     display: flex;
     justify-content: flex-start;
 }
-
+                
 .image-activite{
     width: 250px;
     margin: 10px;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
 }
-
 
 
 
@@ -315,7 +354,7 @@ a:hover{
     padding: 10px;
     justify-content: space-between;
     border: brown solid 1px;
-}
+}     
 
 .annonce-act{
     display: flex;
@@ -324,22 +363,24 @@ a:hover{
     border: 1px solid black;
     justify-content: center;
 }
-
+                
 .annonce-activite{
     border: blue solid 1px;
-
 }
-
-
-
+                
+                
+                
 .des-act{
     text-align: center;
 }
-
+                
 .body-act{
     text-align: center;
 }
 
+*******************************************
+-------------PIED DE PAGE---------------
+*******************************************
 
 footer{
     background-color: #F2F2F2;
@@ -350,37 +391,32 @@ footer{
     width: 100%;    
 }
 
-i{
-    color: #0065FC;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .fa-star{
 
 }
 
-.gris{
-    color: gray;
-}
 
-.filtre{
-    font-size: 2em;
 
-}
 
-.badge{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color:  #DEEBFF;
-    text-align: center;
-    align-items: center;
-    padding-top: 40%;
-}
 
-.filtre-button{
-    color: black;
-    background: white;
-    border: 6px solid #F2F2F2;
-    border-radius: 15px;
-    width: 20%;
-}
+
+
