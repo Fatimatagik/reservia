@@ -182,9 +182,10 @@ a:hover{
 .image-item{
     width: 250px;
     margin: 20px;
-    object-fit: cover;
+    padding: 10%;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
+    object-fit: fill;
 }
     
 .heb-box-cards{
@@ -203,22 +204,29 @@ a:hover{
     width: 100%;
     margin: 5px;
     justify-content: space-around;
+    
 }
 
 .annonce-hebergement{
-    justify-content:center ;
+    justify-content:center;
     border: solid 1px yellow;
-    height: 90%;
+    height: 100%;
+    border-radius: 15%;
+    object-fit: fill;
+    background-color: white;
 }
 
 .body-image{
     border: tomato solid 1px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:flex-start;
+    padding: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 15%;
 }
 
 .description-hot{
-    text-align: center;
+    text-align: start;
 }
     
     
