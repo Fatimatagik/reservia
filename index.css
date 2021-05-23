@@ -182,10 +182,10 @@ a:hover{
 .image-item{
     width: 250px;
     margin: 20px;
-    padding: 10%;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
     object-fit: fill;
+    height: 200px;
 }
     
 .heb-box-cards{
@@ -214,10 +214,11 @@ a:hover{
     border-radius: 15%;
     object-fit: fill;
     background-color: white;
+    width:auto;
 }
 
 .body-image{
-    border: tomato solid 1px;
+    /*border: tomato solid 1px;*/
     justify-content: flex-start;
     align-items:flex-start;
     padding: 10%;
@@ -237,7 +238,7 @@ a:hover{
     width: 100%;
 }
     
-.far fa-star{
+.fas fa-star{
     position: absolute;
     height:2em;
     width: 0.7em;
@@ -270,9 +271,9 @@ i{
     width: 25%;
     margin-left: 10px;
     padding: 40px;
-    margin-bottom: 10px;
     flex-direction: column;
     justify-content: center;
+    align-content: space-between;
 }
 
 /*
@@ -291,9 +292,10 @@ i{
 */
 .image-pop{
     width: 250px;
-    object-fit: cover;
+    object-fit: fill;
     border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    height: 200px;
 }
 
 .populaire-pop{
@@ -306,11 +308,14 @@ i{
 .hebergement-populaire{
     display: flex;
     border: green solid 1px;
-    margin-top: 10px;
+    margin-top: 40px;
     flex-direction: row;
     width: 100%;
     align-items: center;
     padding: 5px;
+    margin-bottom: 40px;
+    border-radius: 15%;
+    background-color: white;
 
 }
 
@@ -318,12 +323,12 @@ i{
 
 .descrip-pop{
     display: flex;
-    text-align: center;
+    text-align: start;
+    margin-left: 2%;
 }
 
 .body-pop{
-    border: tomato solid 1px;
-
+    /*border: tomato solid 1px;*/
     align-items:flex-start;
 
 }
