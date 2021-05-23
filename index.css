@@ -7,10 +7,11 @@ body{
     width: auto;
 }
 
-
+/*
 ******************************************
 ----------------EN-TÊTE---------
 *******************************************
+*/
 header{
     display: flex;
     height: 150px;
@@ -33,8 +34,10 @@ h1{
     color:blue;
     justify-content: flex-start;   
 }
-
+/*
 ++++++++++++++++++++++++++++++++++++++++++
+*/
+
 #logo{
     height: 15px;
     width: 10%;
@@ -45,7 +48,10 @@ h1{
 height: 50px;
 width: 100px;
 }
+/*
 +++++++++++++++++++++++++++++++++++++++
+*/
+
 nav{
     justify-content: flex-end;
     width: 40%;
@@ -73,7 +79,10 @@ a:visited{
 a:hover{
     color: red;
 }
+/*
 ++++++++++++++++++++++++++++++++++++
+*/
+
 .container-search{
     display: flex;
     justify-content: start;
@@ -90,7 +99,9 @@ a:hover{
     padding: 10px;
 
 }
+/*
 ++++++++++++++++++++++++++++++++++++
+*/
 
 .filtre-listing{
     display: flex;
@@ -115,35 +126,24 @@ a:hover{
     padding: 3px;
 }
 
-.filtre{
-    font-size: 2em;
 
-}
-
-.filtre-button{
-    color: black;
-    background: white;
-    border: 6px solid #F2F2F2;
-    border-radius: 15px;
-    width: 20%;
-}
-
-.badge{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color:  #DEEBFF;
-    text-align: center;
-    align-items: center;
-    padding-top: 40%;
-}
-
+/*
 ******************************************
 -------------PARTIE PRINCIPALE ---------
 *******************************************
+*/
+
+.annonce-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*
         *Partie hébergement
         +++++++++++++++++++
-
+*/
 
 #heb-title{
     font-size: 85%;
@@ -244,8 +244,10 @@ i{
 .gris{
     color: gray;
 }
+/*
             *Partie populaire
             ++++++++++++++++++
+*/
 
 #pop-title{
     font-size: 85%;
@@ -320,9 +322,10 @@ i{
 
 
 
-
+/*
             *Partie activité
             ++++++++++++++++++
+*/
 
 .partie-marseille{
     width: 100%;
@@ -377,10 +380,11 @@ i{
 .body-act{
     text-align: center;
 }
-
+/*
 *******************************************
 -------------PIED DE PAGE---------------
 *******************************************
+*/
 
 footer{
     background-color: #F2F2F2;
@@ -391,7 +395,28 @@ footer{
     width: 100%;    
 }
 
+.filtre{
+    font-size: 2em;
 
+}
+
+.filtre-button{
+    color: black;
+    background: white;
+    border: 6px solid #F2F2F2;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.badge{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:  #DEEBFF;
+    text-align: center;
+    align-items: center;
+    padding-top: 40%;
+}
 
 
 

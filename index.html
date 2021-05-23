@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 
 <body>
@@ -55,28 +56,27 @@
 
             <div class="filtre-listing">
             <h2>Filtres</h2>
-            <div class="filtre-body">
-            <i class="fas fa-money-bill-wave"></i>
-            <input type="button">
-            <p>Economique</p>    
+            <div class="filtre-body"> 
+                <div class="badge">
+            <i class="fas fa-money-bill-wave filtre"></i>        
+                </div>
+            
+            <input class="filtre-button" value="Economique" type="button">   
             </div>
 
             <div class="filtre-body">
-            <i class="fas fa-male"></i> 
-            <input type="button">
-            <p>Familial</p>    
+            <i class="fas fa-male filtre"></i> 
+            <input class="filtre-button" value="Familiale" type="button">       
             </div>
                 
             <div class="filtre-body">
-            <i class="fas fa-heart"></i> 
-            <input type="button">
-            <p>Romantique</p>    
+            <i class="fas fa-heart filtre"></i> 
+            <input class="filtre-button" value="Romantique" type="button">     
             </div>
                 
             <div class="filtre-body">
-            <i class="fas fa-dog"></i>
-            <input type="button">
-            <p>Animaux autorisés</p>    
+            <i class="fas fa-dog filtre"></i>
+            <input class="filtre-button" value="Animaux autorisés" type="button">    
             </div>
             </div>
         </div> 
@@ -107,7 +107,7 @@
                     <div class="body-image">
                             <span class="description-hot"><p>la Cannebière</p> </span>
                             <span class="description-hot"><p>Nuit à partir de 25€</p> </span>
-                            <span class="description-hot"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="description-hot"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i></span>
                         <!-- rajouter image d'étoiles pour chaque photos-->
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                     <div class="body-image">
                             <span class="description-hot"><p>Hôtel du port</p></span>
                             <span class="description-hot"><p>Nuit à partir de 52€</p></span>
-                            <span class="description-hot"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="description-hot"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                     </div>
                 </div>
                 <div class="annonce-hebergement">
@@ -128,7 +128,7 @@
                     <div class="body-image">
                             <span class="description-hot"><p>Hôtel les mouettes</p></span>
                             <span class="description-hot"><p>Nuit à partir de 75€</p></span>
-                            <span class="description-hot"><i class="far fa-star"></i> <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="description-hot"><i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i></span>
                     </div>
                 </div>    
                 </div>
@@ -141,7 +141,7 @@
                     <div class="body-image">
                         <span class="description-hot"><p>Hôtel de la mer</p></span>
                         <span class="description-hot"><p>Nuit à partir de 46€</p></span>
-                        <span class="description-hot"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                        <span class="description-hot"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i><i class="fas fa-star gris"></i></span>
                     </div>
                 </div>
                 <div class="annonce-hebergement">
@@ -151,7 +151,7 @@
                     <div class="body-image">
                         <span class="description-hot"><p>Auberge le Panier</p></span>
                         <span class="description-hot"><p>Nuit à partir de 23€</p></span>
-                        <span class="description-hot"><i class="fa-star"></i> <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> <i class="far fa-star"></i></span>
+                        <span class="description-hot"><i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <i class="fas fa-star gris"></i></span>
                     </div>
                 </div>
                 <div class="annonce-hebergement">
@@ -161,7 +161,7 @@
                     <div class="body-image">
                         <span class="description-hot"><p>Hôtel chez Amina</p></span>
                         <span class="description-hot"><p>Nuit à partir de 36€</p></span>
-                        <span class="description-hot"><i class="far fa-star"></i> <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                        <span class="description-hot"><i class="fas fa-star"></i> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                     </div>
                 </div>    
                 </div>
@@ -187,7 +187,7 @@
                         <div class="body-pop">
                             <span class="descrip-pop"><p>Hôtel le soleil du Matin</p></span>
                             <span class="descrip-pop"><p>Nuit à parir de 115€</p></span>
-                            <span class="descrip-pop"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="descrip-pop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                         </div>
                     </div>
                     <div class="hebergement-populaire">
@@ -197,7 +197,7 @@
                         <div class="body-pop">
                             <span class="descrip-pop"><p>Au Coeur de l'eau Chambres d'hôte</p></span>
                             <span class="descrip-pop"><p>Nuit à partir de 71€</p></span>
-                            <span class="descrip-pop"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="descrip-pop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i></span>
                         </div>
                     </div>
                     <div class="hebergement-populaire">
@@ -207,7 +207,7 @@
                         <div class="body-pop">
                             <span class="descrip-pop"><p>Hôtel Tout Bleu et Blanc</p></span>
                             <span class="descrip-pop"><p>Nuit à partir de 69€</p></span>
-                            <span class="descrip-pop"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="descrip-pop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i></span>
                         </div>
                     </div>
                 </div>
