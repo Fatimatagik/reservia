@@ -359,7 +359,11 @@ i{
     margin: 10px;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
+    height: 200px;
+
 }
+
+
 
 
 
@@ -377,21 +381,21 @@ i{
     flex-direction: column;
     width: 100px;
     border: 1px solid black;
-    justify-content: center;
+
 }
                 
 .annonce-activite{
     border: blue solid 1px;
+    display: flex;
+    flex-direction: column;
 }
                 
-                
-                
 .des-act{
-    text-align: center;
+    text-align: start;
 }
                 
 .body-act{
-    text-align: center;
+    text-align: start;
 }
 /*
 *******************************************
