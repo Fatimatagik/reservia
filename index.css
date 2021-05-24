@@ -365,7 +365,7 @@ i{
     margin: 10px;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-    height: 200px;
+    height: 350px;
 
 }
 
@@ -379,29 +379,36 @@ i{
     margin: 5px;
     padding: 10px;
     justify-content: space-between;
-    border: brown solid 1px;
+    /*border: brown solid 1px;*/
 }     
 
 .annonce-act{
     display: flex;
     flex-direction: column;
-    width: 100px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
 }
                 
 .annonce-activite{
-    border: blue solid 1px;
+    /*border: blue solid 1px;*/
     display: flex;
     flex-direction: column;
+    border-radius: 15%;
 }
                 
 .des-act{
     text-align: start;
+    margin-left: 10%;
 }
                 
 .body-act{
     text-align: start;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.vieux-parc{
+    height: 100%;
 }
 /*
 *******************************************
@@ -414,7 +421,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    border: blue solid 1px;
+    /*border: blue solid 1px;*/
     width: 100%;    
 }
 
