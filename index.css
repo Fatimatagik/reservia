@@ -188,14 +188,20 @@ a:hover{
     }
     */
 
-.image-item{
-    width: 250px;
-    margin: 20px;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    object-fit: fill;
-    height: 200px;
+
+.media-hebergement{
+border-top-left-radius: 15%;
+/*border: solid 1px black;*/
 }
+.image-item{
+    margin: 20px;
+    height: 200px;
+    object-fit: fill;
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
     
 .heb-box-cards{
     display: flex;
@@ -217,27 +223,26 @@ a:hover{
 }
 
 .annonce-hebergement{
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /*border: solid 1px yellow;*/
-    height: 100%;
     border-radius: 15%;
-    object-fit: fill;
     background-color: white;
-    width:auto;
+    width:30%;
+
 }
 
 .body-image{
     /*border: tomato solid 1px;*/
+    display: flex;
     justify-content: flex-start;
-    align-items:flex-start;
+    flex-direction: column;
     padding: 10%;
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 15%;
 }
 
-.description-hot{
-    text-align: start;
-}
+
+
     
     
 #affiche-space{
@@ -248,10 +253,8 @@ a:hover{
     font-weight: bold;
 }
     
-.fas fa-star{
-    position: absolute;
-    height:2em;
-    width: 0.7em;
+.fas .fa-star{
+
     background-color: currentColor;
 }
 
