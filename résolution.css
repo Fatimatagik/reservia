@@ -1,1 +1,19 @@
 résolution.css
+
+
+/* Nouvelles règles si la fenêtre fait moins 1280px*/
+@media screen { 
+    max-width: 1280px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and {
+    min-width: 1024px;
+    max-width: 1280px;
+
+}
