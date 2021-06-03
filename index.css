@@ -190,16 +190,17 @@ a:hover{
 
 
 .media-hebergement{
-border-top-left-radius: 15%;
-/*border: solid 1px black;*/
+border-top-left-radius: 10%;
+border: solid 1px black;
+
 }
 .image-item{
-    margin: 20px;
+    margin: 10%;
     height: 200px;
-    object-fit: fill;
-    width: 90%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius:10%;
 }
 
     
@@ -230,6 +231,8 @@ border-top-left-radius: 15%;
     border-radius: 5%;
     background-color: white;
     width:30%;
+    border: blue solid 1px;
+    height: 50%;
 
 
 
@@ -240,7 +243,7 @@ border-top-left-radius: 15%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 10%;
+    padding: 3%;
 }
 
 
@@ -374,8 +377,8 @@ i{
     margin: 10px;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
-    height: 300px;
-    object-fit: fill;
+    height: 100%;
+    object-fit: cover;
 
 
 }
