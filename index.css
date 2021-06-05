@@ -112,9 +112,7 @@ a:hover{/*apparence au survol des liens*/
 
 }
 
-.text{
 
-}
 
 .submit{
     border: 2px solid black;
@@ -233,7 +231,7 @@ border: solid 1px black;
 }
 .image-item{
     margin: 10%;
-    height: 200px;
+    height: 100px;
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 10%;
@@ -280,7 +278,7 @@ border: solid 1px black;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 3%;
+    
 }
 
 
