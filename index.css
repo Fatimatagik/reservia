@@ -169,7 +169,9 @@ a:hover{/*apparence au survol des liens*/
 }
 
 
-
+#filter{
+    font-size: 90%;
+}
 
 /*
 ******************************************
@@ -327,7 +329,7 @@ i{
     background-color: #F2F2F2;
     width: 25%;
     margin-left: 10px;
-    padding: 2%;
+    padding: 1%;
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
@@ -352,7 +354,9 @@ i{
     object-fit: cover;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
-    height: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .populaire-pop{
@@ -365,7 +369,7 @@ i{
 .hebergement-populaire{
     display: flex;
     /*border: green solid 1px;*/
-    margin-top: 5%;
+    margin-top: 3%;
     flex-direction:row
     /*width: 100%;*/
     align-items: center;
@@ -392,7 +396,7 @@ i{
 .body-pop{
     /*border: tomato solid 1px;*/
     align-items:flex-start;
-    line-height: 7%;
+    width: 100%;
 
 }
 

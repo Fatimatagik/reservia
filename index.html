@@ -56,7 +56,7 @@
             
 
             <div class="filtre-listing">
-            <h2>Filtres</h2>
+            <h2 id="filter">Filtres</h2>
             <div class="filtre-body"> 
                 <div class="badge">
                     <i class="fas fa-money-bill-wave filtre"></i>        
@@ -206,7 +206,7 @@
                             <img class="image-pop" src="./photo/images/hebergements/3_medium/emile-guillemot-m.jpg" alt="chambre verte">
                             <figcaption>
                                 <div class="body-pop">
-                                    <span class="descrip-pop"><h3>Hôtel le soleil du Matin</h3></span>
+                                    <span class="descrip-pop"><h3 class="titre-pop">Hôtel le soleil du Matin</h3></span>
                                     <span class="descrip-pop"><p>Nuit à parir de 115€</p></span>
                                     <span class="descrip-pop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                                 </div>    
@@ -219,7 +219,7 @@
                             <img class="image-pop"src="./photo/images/hebergements/3_medium/aw-creative-m.jpg" alt="chambre mezzanine">
                             <figcaption>
                                 <div class="body-pop">
-                                    <span class="descrip-pop"><h3>Au Coeur de l'eau Chambres d'hôte</h3></span>
+                                    <span class="descrip-pop"><h3 class="titre-pop">Au Coeur de l'eau Chambres d'hôte</h3></span>
                                     <span class="descrip-pop"><p>Nuit à partir de 71€</p></span>
                                     <span class="descrip-pop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i></span>
                                 </div>  
@@ -232,7 +232,7 @@
                             <img class="image-pop" src="./photo/images/hebergements/3_medium/febrian-zakaria-sj-m.jpg" alt="grand lit">
                             <figcaption>
                                 <div class="body-pop">
-                                    <span class="descrip-pop"><h3>Hôtel Tout Bleu et Blanc</h3></span>
+                                    <span class="descrip-pop"><h3 class="titre-pop">Hôtel Tout Bleu et Blanc</h3></span>
                                     <span class="descrip-pop"><p>Nuit à partir de 69€</p></span>
                                     <span class="descrip-pop"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gris"></i></span>
                                 </div>   
@@ -253,64 +253,79 @@
 
                 <div class="activites-contenaires">
                     <div class="annonce-activite">
-                        <media class="vieux-parc">
+                        <figure class="vieux-parc">
                             <img class="image-activite"src="./photo/images/activites/3_medium/reno-laithienne-m.jpg" alt="port avec bateaux">
-                        </media>
-                        <div class="body-act">
-                            <span class="des-act"><p>Vieux Port</p></span>
-                        </div> 
+                            <figcaption>
+                                <div class="body-act">
+                                    <span class="des-act"><p>Vieux Port</p></span>
+                                </div>    
+                            </figcaption>
+                        </figure>
                     </div>
 
                     <div class="annonce-activite">
                         <div class="annonce-act">
-                            <media>
+                        <figure>
                             <img class="image-activite" src="./photo/images/activites/3_medium/paul-hermann-m.jpg" alt="cascade de pierre">
-                            </media>
-                            <div class="body-act">
-                                <span class="des-act"><p>Fort de Pomègues</p></span>
-                            </div>     
+                            <figcaption>
+                                <div class="body-act">
+                                    <span class="des-act"><p>Fort de Pomègues</p></span>
+                                </div>         
+                            </figcaption>
+                        </figure> 
                     </div>
                     
 
                     <div class="annonce-activite">
-                            <media>
-                                <img class="image-activite"src="./photo/images/activites/3_medium/kevin-hikari-m.jpg" alt="mer bleu">
-                            </media>
-                            <div class="body-act">
-                                <span class="des-act"><p>Iles du Frioul</p> </span> 
-                            </div>    
+                        <figure>
+                            <img class="image-activite"src="./photo/images/activites/3_medium/kevin-hikari-m.jpg" alt="mer bleu">
+                            <figcaption>
+                                <div class="body-act">
+                                    <span class="des-act"><p>Iles du Frioul</p> </span> 
+                                </div> 
+                            </figcaption>
+                        </figure>
                         </div>     
                     </div>
                     
                     
 
                     <div class="annonce-activite">
-                        <media class="vieux-parc">
+                        <figure class="vieux-parc">
                             <img class="image-activite" src="./photo/images/activites/3_medium/kilyan-sockalingum-m.jpg" alt="cascade vue sur mer">
-                        </media>
-                        <div class="body-act">
-                            <span class="des-act"><p>Parc National des Colanques</p></span>
-                        </div>
+                            <figcaption>
+                                <div class="body-act">
+                                    <span class="des-act"><p>Parc National des Colanques</p></span>
+                                </div>       
+                            </figcaption>
+                        </figure>
                     </div>
 
                     <div class="annonce-activite">
                         <div class="annonce-act">
-                            <media>
-                                <img class="image-activite" src="./photo/images/activites/3_medium/florian-wehde-m.jpg" alt="cascade de maison">
-                            </media>
-                            <div class="body-act">
-                                <span class="des-act"><p>Notre Dame de la Garde</p></span>
-                            </div>     
+                        <figure>
+                            <img class="image-activite" src="./photo/images/activites/3_medium/florian-wehde-m.jpg" alt="cascade de maison">
+                            <figcaption>
+                                <div class="body-act">
+                                    <span class="des-act"><p>Notre Dame de la Garde</p></span>
+                                </div> 
+                            </figcaption>
+                        </figure>
                     </div>
+                            
                     
 
                     <div class="annonce-activite">
-                        <media>
+                        <figure>
                             <img class="image-activite" src="./photo/images/activites/3_medium/lena-paulin-m.jpg" alt="parc avec cascade">
-                        </media>
-                        <div class="body-act">
-                            <span class="des-act"><p>Parc Longchamp</p></span>
-                        </div>      
+                            <figcaption>
+                                <div class="body-act">
+                                    <span class="des-act"><p>Parc Longchamp</p></span>
+                                </div>        
+                            </figcaption>
+                        </figure>
+
+
                         </div>    
                     </div>
                     
@@ -324,7 +339,7 @@
         <section>
             <div>
                 <div>
-                    <h3>A propos</h3>
+                    <h4>A propos</h4>
                 </div>
 
                 <div>
@@ -337,7 +352,7 @@
 
         <section>
             <div>
-                <h3>Nos hébergements</h3>
+                <h4>Nos hébergements</h4>
             </div>
 
             <div>
@@ -348,7 +363,7 @@
 
         <section>
             <div>
-                <h3>Assistance</h3>
+                <h4>Assistance</h4>
             </div>
             <div>
                 <p>Centre d'aide</p>
