@@ -76,15 +76,18 @@ ul{
 a{/*lien par défaut non survolé*/
     text-decoration: none;
     color: black;
+    padding-top: 20px;
+    border-top: transparent solid 1px;
 }
 
 a:visited{
-    color: blue;
+    color : black;
 }
 
 a:hover{/*apparence au survol des liens*/
     color: blue;
-    text-decoration: overline;
+    border-top: blue solid 1px;
+
 }
 
 #activite{
@@ -230,6 +233,8 @@ a:hover{/*apparence au survol des liens*/
 .media-hebergement{
 border-top-left-radius: 10%;
 /*border: solid 1px black;*/
+width: 100%;
+margin: 0%;
 
 }
 .image-item{
@@ -239,7 +244,7 @@ border-top-left-radius: 10%;
     width: 100%;
     border-top-left-radius: 10%;
     border-top-right-radius:10%;
-    padding: 3%;
+    padding: 1%;
 }
 
     
@@ -269,9 +274,9 @@ border-top-left-radius: 10%;
     /*border: solid 1px yellow;*/
     border-radius: 5%;
     background-color: white;
-    width:45%;
+    width:29%;
     /*border: blue solid 1px;*/
-    margin: 2%;
+    padding: 1%;
 
 
 
@@ -467,16 +472,34 @@ i{
 }
                 
 .body-act{
-    text-align: start;
+    text-align:start;
     font-weight: bold;
     border: 2px solid #F2F2F2;
     height: 20%;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
+    width: 100%;
 }
 
 .vieux-parc{
 height: 100%;
+margin-bottom: 15%;
+}
+
+#photo-longchamp{
+    height: 65%;
+}
+
+#photo-dame-garde{
+    height: 65%;
+}
+
+#iles-frioul{
+    height: 65%;
+}
+
+#fort-pomegues{
+    height: 45%;
 }
 /*
 *******************************************
