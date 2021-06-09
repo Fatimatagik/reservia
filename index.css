@@ -87,6 +87,8 @@ a:visited{
 a:hover{/*apparence au survol des liens*/
     color: blue;
     border-top: blue solid 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
