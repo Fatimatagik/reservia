@@ -505,13 +505,14 @@ i{
     flex-direction: row;
     margin: 5px;
     padding: 10px;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     /*border: brown solid 1px;*/
 }     
 
 .annonce-act{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     /*border: 1px solid black;*/
 
 }
