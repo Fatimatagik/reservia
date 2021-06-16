@@ -78,7 +78,8 @@ a{/*lien par défaut non survolé*/
     color: black;
     padding-top: 20px;
     border-top: transparent solid 1px;
-    
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a:visited{
@@ -88,8 +89,7 @@ a:visited{
 a:hover{/*apparence au survol des liens*/
     color: blue;
     border-top: blue solid 1px;
-    padding-left: 20px;
-    padding-right: 20px;
+    
     
 }
 
@@ -110,37 +110,35 @@ a:hover{/*apparence au survol des liens*/
     flex-direction: row;
 }
 
+form i{
+    color: black;
+}
+
 .fas .fa-map-marker-alt{
     border: #F2F2F2 1px solid;
     background :gray;
-    color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
 
 
 .submit-space{
-    border: 2px solid black;
-    /*background: blue;*/
     color: white;
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-top-right-radius: 10px%;
+    border-bottom-right-radius: 10px%;
     border:#F2F2F2 2px solid;
-    background-color: blue;
-    height: 110%;
-    border-left: transparent;
-    padding: 1%;
-    padding-bottom: 0%;
-    display: flex;
-    align-items: center;
+    /*background-color: blue;*/
+    height: 100%;
 }
 
 .submit{
     color: white;
     background-color: blue;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .space-search{
     display: flex;
@@ -200,6 +198,7 @@ a:hover{/*apparence au survol des liens*/
     padding: 3px;
     flex-direction: row;
     margin-bottom: 1%;
+    height: 35px;
 }
 
 
@@ -211,24 +210,24 @@ a:hover{/*apparence au survol des liens*/
 .marker{
     border: 2px solid #F2F2F2;
     background-color:#F2F2F2;
-    height:110%;
+    height:100%;
     border-right: transparent;
-    border-top-left-radius: 30%; ;
-    border-bottom-left-radius: 30%;
+    border-top-left-radius: 10px; ;
+    border-bottom-left-radius: 10px;
+    display: flex;
     align-items: center;
     width: 5%;
-    padding: 1%;
-    padding-bottom: 0%;
+    justify-content: center;
+
 }
 .marseille-france{
     border: #F2F2F2 solid 2px;
-    height: 110%;
+    height: 100%;
     display: flex;
     align-items: center;
     border-right: transparent;
     background-color: white;
-    padding: 1%;
-    padding-bottom: 0%;
+    
     
 
 }
@@ -487,11 +486,12 @@ i{
                 
 .image-activite{
     width: 210px;
-    margin: 10px;
+    
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     height: 65%;
     object-fit: cover;
+    box-shadow: 50%;
     
 
 
@@ -530,17 +530,18 @@ i{
                 
 .des-act{
     text-align: start;
-    margin-left: 10%;
+    
 }
                 
 .body-act{
     text-align:start;
     font-weight: bold;
     border: 2px solid #F2F2F2;
-    height: 20%;
+    height: 2%;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
     width: 100%;
+    box-shadow: 30%;
 }
 
 .vieux-parc{
@@ -582,7 +583,7 @@ footer{
     justify-content: space-between;
     padding: 30px;
     /*border: blue solid 1px;*/
-    width: 100%;    
+    width: 75%;    
 }
 
 .filtre{
@@ -597,6 +598,7 @@ footer{
     height: 100%;
     display: flex;
     text-align: center;
+    margin: 3%;
 }
 
 .badge{
