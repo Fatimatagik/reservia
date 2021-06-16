@@ -334,7 +334,7 @@ margin: 0%;
     flex-direction: column;
     justify-content: center;
     /*border: solid 1px yellow;*/
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: white;
     width:29%;
     /*border: blue solid 1px;*/
