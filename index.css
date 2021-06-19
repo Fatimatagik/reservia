@@ -135,7 +135,7 @@ form i{
 
 .submit{
     color: white;
-    background-color: blue;
+    background-color:#0065FC;
     height: 100%;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -274,6 +274,8 @@ form i{
     margin-bottom: 10px;*/
     align-items: center;
     height: 95%;
+   /*--main-bg-color : gris clair;
+    background-color: var(--gris clair);*/
 }
 
 /*
