@@ -543,6 +543,7 @@ i{
     display: flex;
     flex-direction: column;
     border-radius: 5%;
+    margin-right: 5%;
     
 }
                 
@@ -562,9 +563,9 @@ i{
     width: 97%;
     border-top: transparent;
     box: shadow 30px; ;
-    /*Horizontal Shadow Length :21px;
+    Horizontal Shadow Length :21px;
     Blur Radius: 25px;
-    Spread Radius :10px*/
+    Spread Radius :10px
 
 
     border-top: transparent;
@@ -613,7 +614,7 @@ margin: 0%;
 footer{
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     padding: 30px;
     /*border: blue solid 1px;*/
     width: 100%;   
@@ -659,8 +660,13 @@ footer{
     margin: 0px;
 }
 
+footer #part1{
+    margin-right:15%;
+}
 
-
+footer #part2{
+    margin-right: 25%;
+}
 
 
 
