@@ -375,7 +375,10 @@ margin: 0%;
     width: 100%;
     font-weight: bold;
 }
-    
+
+#affiche-space p{
+    padding-left: 10px;
+}
 .fas .fa-star{
 
     background-color: currentColor;
@@ -500,11 +503,10 @@ i{
 */
 
 .partie-marseille{
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 550px;
+    height: 650px;
 
 }
                 
@@ -515,9 +517,7 @@ i{
 }
                 
 .image-activite{
-    width: 280px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 247px;
     height: 65%;
     object-fit: cover;
     box-shadow: 10px 2px 0px 5px rgba(255,255,255,1);
@@ -531,11 +531,10 @@ i{
 .activites-contenaires{
     display: flex;
     flex-direction: row;
-    margin: 5px;
     justify-content: space-between;
     /*border: brown solid 1px;*/
     width: 100%;
-    height: 650px;
+    height: 550px;
 }     
 
 .annonce-act{
@@ -565,18 +564,22 @@ i{
     font-weight: bold;
     font-size: 90%;
     border: 3px solid #F2F2F2;
-    height: 6%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top: transparent;
-    box-shadow: 5px 2px 0px 2px rgba(255,255,255,1);
-    border-top: transparent;
-    padding-bottom: 5%;
+    height: 35%;
+    
     
 }
 
+.annonce-activite figure{
+    height: 100%;
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
 .vieux-parc{
-height: 85%;
+/*height: 85%;*/
 margin: 0%;
 
 }
@@ -617,7 +620,6 @@ footer{
     background-color: #F2F2F2;
     display: flex;
     /*justify-content: space-between;*/
-    padding: 30px;
     /*border: blue solid 1px;*/
     width: 100%;   
     
@@ -664,6 +666,7 @@ footer{
 
 footer #part1{
     margin-right:15%;
+    padding-left: 5%;
 }
 
 footer #part2{
