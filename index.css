@@ -25,13 +25,14 @@ header{
     width: 100%;
     justify-content: space-between;
     font-size: 85%;
+    padding-top: 30px;
     /* border: 1px solid black; / */
 }
 
 .head-nav{
     display: flex;
     justify-content: flex-end;
-    height:10%;
+    height:100%;
     width: 90%;
     /* border: 1px solid green; */
 }
@@ -89,8 +90,9 @@ a:visited{
 }
 
 a:hover{/*apparence au survol des liens*/
-    color: #0065FC ;
-    border-top: #0065FC  1px;
+    color: #0065FC  ;
+    border-top: #0065FC   2px;
+
     
     
 }
