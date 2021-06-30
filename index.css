@@ -7,11 +7,13 @@ Police : Raleway*/
 body{
     font-family: 'Raleway', sans-serif;
     margin: auto;
-    padding: 30px;
     height: auto;
     width: auto;
 }
 
+.pad-body{
+    padding-left: 39px;
+}
 /*
 ******************************************
 ----------------EN-TÊTE---------
@@ -77,7 +79,7 @@ a{/*lien par défaut non survolé*/
     text-decoration: none;
     color: black;
     padding-top: 20px;
-    border-top: transparent solid 1px;
+    border-top: transparent solid 2px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -87,8 +89,8 @@ a:visited{
 }
 
 a:hover{/*apparence au survol des liens*/
-    color: blue;
-    border-top: blue solid 1px;
+    color: #0065FC ;
+    border-top: #0065FC  1px;
     
     
 }
@@ -180,7 +182,7 @@ form i{
     flex-direction: row;
     margin-left: 5%;
     background: white;
-    border: 4px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     border-radius: 28px;
     align-items: center;
     height: 25%;
@@ -276,7 +278,9 @@ form i{
     height: 87%;
    /*--main-bg-color : gris clair;
     background-color: var(--gris clair);*/
+    border-radius: 13px;
 }
+
 
 /*
 
@@ -342,7 +346,9 @@ margin: 0%;
     width:29%;
     /*border: blue solid 1px;*/
     padding: 1%;
-    box-shadow: 5px 2px 0px 2px rgba(255,255,255,1);
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
 
 
 
@@ -406,6 +412,7 @@ i{
     align-content: space-between;
     height: 87%;
     padding-left: 38px;
+    border-radius: 13px;
 }
 
 /*
@@ -459,7 +466,9 @@ i{
     padding: 2%;
     height: 30%;
     width: 92%;
-    box-shadow: 5px 2px 0px 2px rgba(255,255,255,1);
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
 }
 
 .figure-pop{
