@@ -4,6 +4,7 @@ resolution.css*
 /*Nouvelles règles si la fenêtre fait moins 1280px*/
 @media screen {
     max-width: 1280px;
+    min-width: 500px;
 }
 
 header{
