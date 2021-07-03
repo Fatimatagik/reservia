@@ -8,7 +8,7 @@ resolution.css*
 
 header{
     display: flex;
-    flex-direction: column;
+    flex-direction: column wrap;
 }
 
 @media all and{
@@ -18,18 +18,18 @@ header{
 
 .filter-cards{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 .annonce-container{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 .partie-marseille{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 
 footer{
     display: flex;
-    flex-direction: column;
+    flex-fo: column wrap;
 }
