@@ -11,6 +11,21 @@ header{
     display: flex;
     flex-direction: column wrap;
 }
+#menu{
+    display: flex;
+    flex-direction: wrap;
+}
+
+#inscription{
+    position: absolute;
+    top: 20px;
+
+}
+
+.space-search h1{
+    word-wrap :normal;
+}
+
 
 @media all and{
     min-width: 1024px;px
@@ -20,17 +35,40 @@ header{
 .filter-cards{
     display: flex;
     flex-flow: column wrap;
+
+}
+
+.filtre{
+    display: flex;
+    flex-direction: wrap;
 }
 .annonce-container{
     display: flex;
-    flex-flow: column wrap;
-}
-.partie-marseille{
-    display: flex;
-    flex-flow: column wrap;
+    flex-flow: column-reverse ;
 }
 
+.annonce-container-hebergement{
+    display: flex;
+    flex-direction: column;
+}
+
+.annonce-container-populaires{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.partie-marseille{
+    display: flex;
+    flex-direction: column;
+}
+
+.annonce-activite{
+    height: 40%;
+}
 footer{
     display: flex;
-    flex-fo: column wrap;
+    flex-direction: column;
+    height: 60%;
+    justify-content: flex-start;
 }
