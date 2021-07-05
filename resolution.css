@@ -7,13 +7,18 @@ resolution.css*
     min-width: 500px;
 }
 
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
 header{
     display: flex;
-    flex-direction: column wrap;
+    flex-flow: column wrap;
 }
 #menu{
     display: flex;
-    flex-direction: wrap;
+    flex-flow: column wrap;
 }
 
 #inscription{
@@ -40,7 +45,7 @@ header{
 
 .filtre{
     display: flex;
-    flex-direction: wrap;
+    flex-flow: column wrap;
 }
 .annonce-container{
     display: flex;
@@ -49,18 +54,18 @@ header{
 
 .annonce-container-hebergement{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 
 .annonce-container-populaires{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 
 
 .partie-marseille{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
 }
 
 .annonce-activite{
@@ -68,7 +73,7 @@ header{
 }
 footer{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     height: 60%;
     justify-content: flex-start;
 }
