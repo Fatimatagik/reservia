@@ -5,75 +5,73 @@ resolution.css*
 @media screen {
     max-width: 1280px;
     min-width: 500px;
-}
 
 
-body{
-    display: flex;
-    flex-flow: column wrap;
-}
-header{
-    display: flex;
-    flex-flow: column wrap;
-}
-#menu{
-    display: flex;
-    flex-flow: column wrap;
-}
 
-#inscription{
-    position: absolute;
-    top: 20px;
+    body{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-}
+    header{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.space-search h1{
-    word-wrap :normal;
-}
+    #menu{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
+    #inscription{
+        position: absolute;
+        top: 20px;
+    }
 
-@media all and{
-    min-width: 1024px;
-    max-width: 1280px;
-}
+    .space-search h1{
+        word-wrap :normal;
+    }
 
-.filter-cards{
-    display: flex;
-    flex-flow: column wrap;
+    .filter-cards{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-}
+    .filtre{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.filtre{
-    display: flex;
-    flex-flow: column wrap;
-}
-.annonce-container{
-    display: flex;
-    flex-flow: column-reverse ;
-}
+    .annonce-container{
+        display: flex;
+        flex-flow: column-reverse ;
+    }
 
-.annonce-container-hebergement{
-    display: flex;
-    flex-flow: column wrap;
-}
+    .annonce-container-hebergement{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.annonce-container-populaires{
-    display: flex;
-    flex-flow: column wrap;
-}
+    .annonce-container-populaires{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
 
-.partie-marseille{
-    display: flex;
-    flex-flow: column wrap;
-}
+    .partie-marseille{
+        display: flex;
+        flex-flow: column wrap;
+    }
 
-.annonce-activite{
-    height: 40%;
-}
-footer{
-    display: flex;
-    flex-flow: column wrap;
-    height: 60%;
-    justify-content: flex-start;
+    .annonce-activite{
+        height: 40%;
+    }
+    
+    footer{
+        display: flex;
+        flex-flow: column wrap;
+        height: 60%;
+        justify-content: flex-start;
+    }
+
 }
