@@ -91,10 +91,7 @@ a:visited{
 
 a:hover{/*apparence au survol des liens*/
     color: #0065FC  ;
-    border-top: #0065FC   2px;
-
-    
-    
+    border-top: #0065FC   2px;  
 }
 
 #activite{
