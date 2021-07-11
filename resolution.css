@@ -2,10 +2,8 @@ resolution.css*
 
 
 /*Nouvelles règles si la fenêtre fait moins 1280px*/
-@media screen {
-    max-width: 1280px;
-    min-width: 500px;
-
+@media (orientation : portrait) and (max-with:768px)
+{
 
 
     body{
@@ -45,6 +43,11 @@ resolution.css*
     .annonce-container{
         display: flex;
         flex-flow: column-reverse ;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
     }
 
     .annonce-container-hebergement{
