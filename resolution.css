@@ -1,14 +1,17 @@
 resolution.css*
 
 
-/*Nouvelles règles si la fenêtre fait moins 1280px*/
-@media (orientation : portrait) and (max-with:768px)
+/*Nouvelles règles si la fenêtre fait moins 768px et en portrait*/
+@media screen and (orientation : portrait) and (max-with:768px)
 {
-
-
+    
     body{
-        display: flex;
-        flex-flow: column wrap;
+        display: block;
+        font-size : clamp(35px, 5vw,70px)
+    }
+
+    main{
+        width: 100%;
     }
 
     header{
