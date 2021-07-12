@@ -29,6 +29,11 @@ resolution.css*
         top: 20px;
     }
 
+    a:hover{
+        color: #0065FC ;
+        border-bottom:#0065FC 2px solid ;
+    }
+
     .space-search h1{
         word-wrap :normal;
     }
@@ -40,7 +45,7 @@ resolution.css*
 
     .filtre{
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
     }
 
     .annonce-container{
