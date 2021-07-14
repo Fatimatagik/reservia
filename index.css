@@ -6,6 +6,7 @@ Police : Raleway*/
 
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 
 }
 
@@ -20,7 +21,7 @@ body{
 header{
     display: flex;
     height: 50px;
-    width: 100%;
+    width: 98%;
     justify-content: space-between;
     font-size: 85%;
     padding-top: 30px;
@@ -142,11 +143,11 @@ form i{
 .space-search{
     display: flex;
     /* background-color: darkgoldenrod;  */
-    width: 100%;
+    width: 96%;
     font-size: 95%; justify-content: start;
     flex-direction: column;
     /*border: 1px solid black;*/
-    padding: 10px;
+    padding: 2%;
 
 }
 #rechercher{
@@ -533,24 +534,26 @@ i{
     height: 400px;
 }     
 
-.annonce-act{
-    display: flex;
-    flex-direction: column;
-
+.annonce-act50{
     /*border: 1px solid black;*/
-    height: 40%;
+    height: 50%;
 
+}
+
+.annonce-act30{
+    height: 30%;   
 }
                 
 .annonce-activite{
-    /*border: blue solid 1px;*/
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
 
     
 }
-                
+  
+.flexcolumn{
+    display: flex;
+    flex-direction: column;  
+}
 .des-act{
     text-align: start;
     
@@ -559,6 +562,7 @@ i{
 .body-act{
     font-weight: bold;
     font-size: 90%;
+    padding-left: 2%;
     
     
     

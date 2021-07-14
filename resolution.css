@@ -1,14 +1,8 @@
-resolution.css*
-
 
 /*Nouvelles règles si la fenêtre fait moins 768px et en portrait*/
-@media screen and (orientation : portrait) and (max-with:768px)
+@media screen and (max-width:768px)
 {
     
-    body{
-        display: block;
-        font-size : clamp(35px, 5vw,70px)
-    }
 
     main{
         width: 100%;
