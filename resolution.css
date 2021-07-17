@@ -39,6 +39,13 @@
     .annonce-container{
         display: flex;
         flex-direction: column-reverse;
+        height: 2500px;
+    }
+
+    .annonce-container-hebergement{
+        margin-top: 5%;
+        width: 100%;
+        background-color: none;
     }
 
     .heb-box-cards{
@@ -51,7 +58,9 @@
         flex-direction: column;
     }
 
-    
+    .annonces-contenaire-populaires{
+        width: 100%;
+    }
     
 /*
 
