@@ -16,6 +16,7 @@
     #inscription{
         position: absolute;
         top: 20px;
+        right: 2px;
     }
 
     a:hover{
@@ -26,12 +27,12 @@
     .filter-card{
         background-color: blue
     }
-
+/*
     .filtre-listing{
         display: flex;
         flex-flow: column wrap;
     }
-
+*/
     .filtre-body{
         margin: 4px;
     }
@@ -70,7 +71,7 @@
 
     .partie-marseille{
         flex-direction: column;
-        height: 1220px;
+        height: 1352px;
     }
     
     .activites-contenaires{
@@ -88,60 +89,18 @@
     }
 
     
-/*
-
-
-
-
-    
-    .space-search h1{
-        word-wrap :normal;
-    }
-
-img{
-        max-width: 100%;
-        height: auto;
-    }
-
-    
-    
-
-   
-   
-
-
-    .annonce-container-populaires{
-        display: flex;
-        flex-flow: column wrap;
-    }
-
-/*
-    .partie-marseille{
-        display: flex;
-        flex-flow: column;
-    }
-
-    .activites-contenaires{
-        display: flex;
-        flex-direction: column;
-
-    }
-*/
     .annonce-activite{
         height: 40%;
         margin-bottom: 11%;
     }
 
-    .annonce-act50{
+    .annonce-act50 .annonce-act30{
         height: 73%;
         margin-bottom: 11%;
     }
 
-    .annonce-act30{
-        height: 73%;
-        margin-bottom: 11%;
-    }
-    
+
+
     footer{
         display: flex;
         flex-flow: column wrap;
@@ -153,9 +112,11 @@ img{
 
     footer #part2{
         padding-left: 5%;
-
     }
 
+    footer #part3{
+        padding-left: 5%;
+    }
 
 
 
