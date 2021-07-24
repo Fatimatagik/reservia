@@ -59,7 +59,10 @@
     }
 
     .annonces-contenaire-populaires{
-        width: 100%;
+        width: 96%;
+        margin: 0;
+        padding: 2%;
+        height: 28%;
     }
     
 
