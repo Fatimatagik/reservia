@@ -37,24 +37,27 @@
     }
 
     .annonce-container{
-        display: flex;
         flex-direction: column-reverse;
-        height: 2500px;
+        height: auto;
     }
 
     .annonce-container-hebergement{
         margin-top: 5%;
         width: 100%;
-        background-color: none;
+        background-color: white;
     }
 
     .heb-box-cards{
-        display: flex;
         flex-direction: column;
     }
 
+    .annonce-hebergement{
+        width: 89%;
+        padding: 2%;
+        margin-bottom: 11%;
+    }
+
     .heb-box-cards2{
-        display: flex;
         flex-direction: column;
     }
 
@@ -64,8 +67,17 @@
         padding: 2%;
         height: 28%;
     }
-    
 
+    .partie-marseille{
+        flex-direction: column;
+        height: 970px;
+    }
+    
+    .activites-contenaires{
+        flex-direction: column;
+        margin: 2%;
+        padding: 2%;
+    }
 
     
 /*
@@ -109,6 +121,17 @@ img{
 */
     .annonce-activite{
         height: 40%;
+        margin-bottom: 11%;
+    }
+
+    .annonce-act50{
+        height: 73%;
+        margin-bottom: 11%;
+    }
+
+    .annonce-act30{
+        height: 73%;
+        margin-bottom: 11%;
     }
     
     footer{
