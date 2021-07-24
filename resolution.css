@@ -70,13 +70,21 @@
 
     .partie-marseille{
         flex-direction: column;
-        height: 970px;
+        height: 1220px;
     }
     
     .activites-contenaires{
         flex-direction: column;
         margin: 2%;
         padding: 2%;
+        height: 654px;
+    }
+
+    #iles-frioul{
+        margin-bottom: 15%;
+    }
+    .vieux-parc{
+        margin-top: 15%;
     }
 
     
@@ -139,6 +147,16 @@ img{
         flex-flow: column wrap;
         height: 60%;
         justify-content: flex-start;
+        width: 96%;
+        padding: 2%;
     }
+
+    footer #part2{
+        padding-left: 5%;
+
+    }
+
+
+
 
 }
