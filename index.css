@@ -126,8 +126,8 @@ form i{
 
 .submit-space{
     color: white;
-    border-top-right-radius: 10px%;
-    border-bottom-right-radius: 10px%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     border:transparent 2px solid;
     /*background-color: blue;*/
     height: 100%;
@@ -457,7 +457,7 @@ i{
     display: flex;
     /*border: green solid 1px;*/
     margin-top: 13%;
-    flex-direction:row
+    flex-direction:row;
     /*width: 100%;*/
     align-items: center;
     /*padding: 5px;
@@ -667,4 +667,4 @@ footer #part2{
     margin-right: 25%;
 }
 
-}
+
