@@ -11,7 +11,14 @@
     }
 
     h1{
-        text-align: justify;
+        word-wrap: break-word;
+        width: 87%;
+    }
+
+
+    .space-search p{
+        margin-top: 1px;
+        margin-bottom: 24px;
     }
     .container-search{
         padding-left: 16%;
@@ -120,25 +127,35 @@
 
 @media screen and (max-width:425px){
 
+    body{
+        margin: 2px;
+    }
     #logo{
         position: absolute;
-        top: -2px;
+    
     }
 
     .head-nav{
-        justify-content:space-evenly;
-        margin-top: 35px;
+        justify-content:space-around;
+        margin-top: 40px;
+    }
+
+    a:hover{/*apparence au survol des liens*/
+        color: #0065FC  ;
+        border-bottom: #0065FC   2px solid;
+        border-top: none;
     }
 
 
     li{
-       margin-left: 69px;
-       margin-right:46px; 
-
+    margin-left: 48px;
+    margin: right -6px;
     }
+
+
+
     ul{
         margin: 0;
-        justify-content: space-evenly;
     }
     
 /*
@@ -189,7 +206,7 @@
     }
 
     .partie-marseille{
-        height: 1750px;
+        height: 1600px;
     }
 
 
