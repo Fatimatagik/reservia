@@ -24,6 +24,8 @@
         padding-left: 16%;
     }
 
+   
+
     main{
         width: 100%;
     }
@@ -150,6 +152,7 @@
     li{
     margin-left: 48px;
     margin: right -6px;
+    font-size: large;
     }
 
 
@@ -166,9 +169,17 @@
 */
     #activites{
         padding-right: 67%;
+        font-size: large;
     }
 
+    h1{
+        width: 85%;
+    }
 
+    form{
+        display: flex;
+        justify-content: start;
+    }
     
     .marker{
         width: 35px;
@@ -184,6 +195,15 @@
         margin-left: 49px;
 }
 
+/*
+    .ecofam{
+        display: flex;
+        flex-direction: row;
+    }*/
+
+    
+    
+    
     .filtre-listing h2 {
         justify-content:start
 
@@ -192,6 +212,10 @@
     .filtre{
         height: 40%;
         flex-flow: column;
+    }
+
+    .filter{
+        margin-left: 5px;
     }
     
     .filtre-listing{
@@ -204,6 +228,8 @@
     .filtre-body{
         margin: 4px;
     }
+
+
 
     .partie-marseille{
         height: 1600px;
