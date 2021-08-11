@@ -272,6 +272,11 @@
 
 
 @media screen and (max-width:375px){
+
+
+    .head-nav{
+        
+    }
     h1{
         margin-left: 22px;
     }
