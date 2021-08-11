@@ -268,3 +268,20 @@
     }
 
 } 
+
+
+
+@media screen and (max-width:375px){
+    h1{
+        margin-left: 22px;
+    }
+
+    .space-search p{
+        margin-left: 25px;
+    }
+
+    form{
+        margin-left: -98px;
+    }
+
+} 
