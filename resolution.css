@@ -173,12 +173,19 @@
     }
 
     h1{
-        width: 85%;
+        width: 90%;
+        margin-left: 44px;
     }
 
+
+    .space-search p{
+    margin-left: 47px;
+
+    }
     form{
         display: flex;
         justify-content: start;
+        margin-left: -76px;
     }
     
     .marker{
