@@ -83,22 +83,21 @@
 
     .partie-marseille{
         flex-direction: column;
-        height: 1890px;
     }
     
     .activites-contenaires{
         flex-direction: column;
         padding: 2%;
-        height: 654px;
+        height: initial;
     }
 
     #iles-frioul{
         margin-bottom: 15%;
-        height: 40%;
+        height: 241px;
     }
-    figure{
+    .annonce-activite figure{
         margin-top: 0;
-        height: 40%;
+        height: 241px;
     }
 
     
@@ -228,7 +227,8 @@
     .filtre-listing{
         height: 40%;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
+        width:100%;
     }
 
 
@@ -238,13 +238,8 @@
 
 
 
-    .partie-marseille{
-        height: 1600px;
-    }
-
-
     .annonce-activite{
-        height: 250px;
+        height: initial;
     }
     footer{
         display: flex;
