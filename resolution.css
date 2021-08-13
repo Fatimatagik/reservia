@@ -11,15 +11,15 @@
     }
 
     h1{
-        word-wrap: break-word;
-        width: 87%;
+        width: 100%;
     }
 
-
+/*
     .space-search p{
         margin-top: 1px;
         margin-bottom: 24px;
     }
+    */
     .container-search{
         padding-left: 16%;
     }
@@ -81,9 +81,8 @@
         height: 28%;
     }
 
-    .partie-marseille{
-        flex-direction: column;
-    }
+    
+    
     
     .activites-contenaires{
         flex-direction: column;
@@ -91,29 +90,22 @@
         height: initial;
     }
 
-    #iles-frioul{
-        margin-bottom: 15%;
-        height: 241px;
-    }
+
     .annonce-activite figure{
-        margin-top: 0;
         height: 241px;
     }
 
     
     .annonce-activite{
-        height: 300px;
         margin-bottom: 11%;
         width: 96%;
     }
 
     .annonce-act50{
-        height: 300px;
         margin-bottom: 11%;
     }
 
     .annonce-act30{
-        height: 300px;
         margin-bottom: 11%;
     }
 
@@ -137,8 +129,12 @@
     }
 
     .head-nav{
-        justify-content:space-around;
         margin-top: 40px;
+        margin-left: 52px;
+    }
+
+    #menu{
+        width: 100%;
     }
 
     a:hover{/*apparence au survol des liens*/
@@ -150,7 +146,6 @@
 
     li{
     margin-left: 48px;
-    margin: right -6px;
     font-size: large;
     }
 
@@ -172,19 +167,14 @@
     }
 
     h1{
-        width: 90%;
-        margin-left: 44px;
+        width: 100%;
     }
+    
 
 
-    .space-search p{
-    margin-left: 47px;
-
-    }
     form{
         display: flex;
         justify-content: start;
-        margin-left: -76px;
     }
     
     .marker{
