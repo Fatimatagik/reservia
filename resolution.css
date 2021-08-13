@@ -215,7 +215,6 @@
     }
     
     .filtre-listing{
-        height: 40%;
         display: flex;
         flex-flow: row wrap;
         width:100%;
@@ -224,6 +223,7 @@
 
     .filtre-body{
         margin: 4px;
+        margin-right: 35px;
     }
 
 
@@ -234,10 +234,6 @@
     footer{
         display: flex;
         flex-direction: column;
-        height: 60%;
-        justify-content: flex-start;
-        width: 96%;
-        padding: 2%;
     }
 
 
@@ -255,23 +251,3 @@
 } 
 
 
-
-@media screen and (max-width:375px){
-
-
-    .head-nav{
-        
-    }
-    h1{
-        margin-left: 22px;
-    }
-
-    .space-search p{
-        margin-left: 25px;
-    }
-
-    form{
-        margin-left: -98px;
-    }
-
-} 
