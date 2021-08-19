@@ -129,8 +129,9 @@
     }
 
     .head-nav{
-        margin-top: 40px;
-        margin-left: 52px;
+        margin-top: 10%;
+        margin-left: 17%;
+        width: 66%;
     }
 
     #menu{
