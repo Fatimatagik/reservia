@@ -251,3 +251,10 @@
 } 
 
 
+
+@media screen and (max-width:320px){
+    .container-search{
+        margin-left: 64px;
+    }
+
+} 
