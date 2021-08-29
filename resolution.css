@@ -138,6 +138,10 @@
     
     }
 
+    header{
+        width: 100%;
+    }
+
     .head-nav{
         margin-top: 10%;
         margin-left: 17%;
