@@ -400,6 +400,7 @@ i{
     justify-content: start;
     /*border: tomato solid 1px;*/
     width: 100%;
+    margin-bottom: 1%;
 }
             
 .annonces-contenaire-populaires{
@@ -411,7 +412,7 @@ i{
     justify-content: center;
     align-content: space-between;
     height: 87%;
-    padding-left: 38px;
+    /*padding-left: 38px;*/
     border-radius: 13px;
 }
 

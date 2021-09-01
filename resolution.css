@@ -1,4 +1,28 @@
 
+
+@media screen and (max-width:1024px)
+{
+    .activites-contenaires{
+        width: 100%;
+    }
+
+    .annonce-activite{
+        width: 23%;
+    }
+
+    ul{
+        padding: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
 /*Nouvelles règles si la fenêtre fait moins 768px et en portrait*/
 @media screen and (max-width:768px)
 {
@@ -58,7 +82,7 @@
 
     .annonce-container-hebergement{
         margin-top: 5%;
-        width: 100%;
+        width: 98%;
         background-color: white;
     }
 
@@ -90,6 +114,7 @@
         flex-direction: column;
         padding: 2%;
         height: initial;
+        width: 96%;
     }
 
 
@@ -144,8 +169,7 @@
 
     .head-nav{
         margin-top: 10%;
-        margin-left: 17%;
-        width: 83%;
+        width: 100%;
     }
 
     #menu{
@@ -160,7 +184,6 @@
 
 
     li{
-    margin-left: 48px;
     font-size: large;
     }
 
@@ -168,17 +191,22 @@
 
     ul{
         margin: 0;
+        margin-left: 68px;
     }
     
-/*
-    #heber{
-        padding: left 25%; 
 
+    #heber{
+        margin-right: 48px;
     }
-*/
+
+
+
+
+
+
     #activites{
-        padding-right: 67%;
         font-size: large;
+        margin-right: 67px;
     }
 
     h1{
