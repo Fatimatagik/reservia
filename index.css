@@ -336,7 +336,7 @@ margin: 0%;
 .annonce-hebergement{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     /*border: solid 1px yellow;*/
     border-radius: 10px;
     background-color: white;
@@ -346,18 +346,22 @@ margin: 0%;
     box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
     -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
     -moz-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
-
-
-
-
 }
+
+.annonce-container-hebergement h3, .annonce-container-hebergement p{
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+
+
+
 
 .body-image{
     /*border: tomato solid 1px;*/
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    line-height: 5%;
     
 }
 
@@ -371,6 +375,7 @@ margin: 0%;
     /*border: magenta solid 1px;*/
     width: 100%;
     font-weight: bold;
+    margin-top: 33px;
 }
 
 #affiche-space p{
@@ -448,14 +453,13 @@ i{
 .populaire-pop{
     display: flex;
     flex-direction: column;
-    margin-top: -46px;
     justify-content: center;
 }
 
 .hebergement-populaire{
     display: flex;
     /*border: green solid 1px;*/
-    margin-top: 13%;
+    margin-bottom: 11%;
     flex-direction:row;
     /*width: 100%;*/
     align-items: center;
@@ -464,7 +468,6 @@ i{
     border-radius: 10px;
     background-color: white;
     padding: 2%;
-    height: 30%;
     width: 92%;
     box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
     -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
@@ -475,6 +478,7 @@ i{
     display: flex;
     flex-direction: row;
     margin: 0%;
+    height: 128px;
 }
 
 
@@ -487,7 +491,6 @@ i{
 
 .body-pop{
     /*border: tomato solid 1px;*/
-    align-items:flex-start;
     width: 100%;
 
 }
