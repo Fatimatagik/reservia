@@ -13,6 +13,10 @@
     ul{
         padding: 0;
     }
+
+    .body-pop .descrip-pop p{
+        margin-bottom: 20px;
+    }
     
 }
 
