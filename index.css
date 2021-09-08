@@ -405,7 +405,6 @@ i{
     justify-content: start;
     /*border: tomato solid 1px;*/
     width: 100%;
-    margin-bottom: 1%;
 }
             
 .annonces-contenaire-populaires{
@@ -436,7 +435,7 @@ i{
 
 */
 .image-pop{
-    width: 30%;
+    width: 48%;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -478,7 +477,8 @@ i{
     display: flex;
     flex-direction: row;
     margin: 0%;
-    height: 137px;
+    height: 127px;
+    width: 100%;
 }
 
 
@@ -487,11 +487,13 @@ i{
     display: flex;
     text-align: start;
     margin-left: 2%;
+    margin-bottom: 23px;
 }
 
 .body-pop{
     /*border: tomato solid 1px;*/
     width: 100%;
+    height: 100%;
 
 }
 
@@ -657,6 +659,9 @@ footer{
 }
 
 .descrip-pop h3{
+    margin: 0px;
+}
+.descrip-pop p{
     margin: 0px;
 }
 

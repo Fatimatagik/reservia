@@ -13,11 +13,31 @@
     ul{
         padding: 0;
     }
-
-    .body-pop .descrip-pop p{
+    .descrip-pop{
         margin-bottom: 20px;
     }
+
+    .descrip-pop p{
+        margin-bottom: 6px;
+    }
+
+    .body-pop h3{
+        margin: 0;
+    }
+
+    .image-pop{
+        width: 29%;
+    }
     
+.annonce-container-hebergement h3{
+    font-size: medium;
+}
+
+.annonces-contenaire-populaires h3{
+    font-size: medium;
+}
+
+
 }
 
 
