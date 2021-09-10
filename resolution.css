@@ -85,11 +85,7 @@
     }
 
 
-    #inscription{
-        position: absolute;
-        top: 20px;
-        right: 2px;
-    }
+
 
     a:hover{
         border-top: none;
@@ -200,6 +196,13 @@
         width: 100%;
     }
 
+
+    #inscription{
+        position: absolute;
+        top: 20px;
+        right: 2px;
+    }
+
     a:hover{/*apparence au survol des liens*/
         color: #0065FC  ;
         border-bottom: #0065FC   2px solid;
@@ -215,12 +218,12 @@
 
     ul{
         margin: 0;
-        margin-left: 68px;
+        align-items: center;
     }
     
 
     #heber{
-        margin-right: 48px;
+        width: 50%;
     }
 
 
@@ -230,7 +233,7 @@
 
     #activites{
         font-size: large;
-        margin-right: 67px;
+        width: 50%;
     }
 
     h1{
