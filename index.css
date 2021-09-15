@@ -185,7 +185,12 @@ form i{
     height: 25%;
     justify-content: flex-start;
 
+}
 
+.filtre-body:hover{
+    cursor: pointer;
+    background-color: blueviolet
+    ;
 }
 
 #search-body{
@@ -345,6 +350,12 @@ margin: 0%;
     box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
     -webkit-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
     -moz-box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.6);
+
+}
+
+.annonce-hebergement:hover{
+    cursor: pointer;
+    background-color: blueviolet;
 }
 
 .annonce-container-hebergement h3, .annonce-container-hebergement p{
@@ -417,6 +428,10 @@ i{
     height: 87%;
     /*padding-left: 38px;*/
     border-radius: 13px;
+}
+.hebergement-populaire:hover{
+    cursor: pointer;
+    background-color: blueviolet;
 }
 
 /*
@@ -551,6 +566,11 @@ i{
     justify-content: space-between;
 
     
+}
+
+.annonce-activite:hover{
+    cursor: pointer;
+    background-color: blueviolet;
 }
 
 .flexcolumn{
