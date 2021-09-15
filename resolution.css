@@ -62,6 +62,9 @@
         width: 100%;
     }
 
+    nav{
+        width: 54%;
+    }
 
 
 /*
@@ -77,12 +80,12 @@
    
 
     main{
-        width: 100%;
+        width: 96%;
     }
 
     .head-nav{
         width: 100%;
-        margin-right: 42px;
+    
     }
 /*
     a:hover{
@@ -91,7 +94,9 @@
     }*/
 
 
-
+.filtre-listing{
+    flex-flow: wrap;
+}
 
 
 
@@ -105,7 +110,7 @@
 
     .annonce-container-hebergement{
         margin-top: 5%;
-        width: 100%;
+        width: 96%;
         background-color: white;
     }
 
@@ -132,6 +137,9 @@
         height: 28%;
     }
 
+    .hebergement-populaire{
+        width: 96%;
+    }
     
     
     
@@ -148,7 +156,7 @@
     }
 
     .partie-marseille{
-        width: 100%;
+        width: 98%;
     }
     .annonce-activite{
         margin-bottom: 11%;
@@ -169,7 +177,7 @@
 
 
     header{
-        width: 100%;
+        width: 96%;
 
 }
 
@@ -180,38 +188,25 @@
     .pad-body{
         padding-left: 2px;
     }
-}
-
-@media screen and (max-width 719px){
-
-    .annonces-contenaire-populaires{
-        width:98%
-    }
-    .hebergement-populaire{
-        width:96%
-    }
-    .annonce-container-hebergement{
-        padding:0
-    }
-
-    .heb-box-cards{
-        margin: 0;
-    }
-
-    .annonce-hebergement{
-        width: 96%;
-    }
-
-    .annonce-activite{
-        width: 100%;
-    }
 
     #part1{
+        margin-right: 11%;
+        padding-left: 3%;
+    }
+
+    #part{
         margin-right: 13%;
     }
 
-    #part2{
-        margin-right: 13%;
+    footer .pad-body
+    padding-left: 0;
+}
+
+@media screen and (min-width 680px){
+
+
+    .filtre-listing{
+        width: 36%;
     }
     
 }
