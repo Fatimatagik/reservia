@@ -182,9 +182,7 @@
     }
 }
 
-@media screen (max: width 719px){
-
-
+@media screen and (max-width 719px){
 
     .annonces-contenaire-populaires{
         width:98%
