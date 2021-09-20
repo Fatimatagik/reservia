@@ -51,9 +51,6 @@
 @media screen and (max-width:768px)
 {
 
-    #logo{
-        margin-top: -30px;
-    }
     form{
         margin-left: -137px;
     }
@@ -198,20 +195,22 @@
         margin-right: 13%;
     }
 
-    footer .pad-body
-    padding-left: 0;
+    footer .pad-body{
+        padding-left: 0;   
+    }
+   
 }
 
-@media screen and (min-width 680px){
+@media screen and (min-width:680px){
 
 
     .filtre-listing{
         width: 36%;
     }
     
+}
 
-
-@media screen and (min-width 618px){
+@media screen and (max-width:618px){
     .filter-card{
         width: 96%;
     }
@@ -232,10 +231,10 @@
     }
 
     .head-nav{
-        margin-top: 9%;
+        margin-top: 64px;
         width: 100%;
         margin-right: 0;
-        height: 40px;
+        
     }
 
     #menu{
@@ -249,11 +248,11 @@
         right: 2px;
     }
 
-    a:hover{/*apparence au survol des liens*/
+    .head-nav a:hover{/*apparence au survol des liens*/
         color: #0065FC  ;
         border-bottom: #0065FC   2px solid;
         border-top: none;
-        width: 50%;
+
         padding-bottom: 10px;
     }
 
@@ -261,7 +260,6 @@
 
     li{
     font-size: large;
-    display: block;
     text-align: center;
     }
 
