@@ -235,7 +235,7 @@
         margin-top: 9%;
         width: 100%;
         margin-right: 0;
-        height: none;
+        height: 40px;
     }
 
     #menu{
@@ -276,11 +276,6 @@
     #heber{
         width: 50%;
     }
-
-
-
-
-
 
     #activites{
         font-size: large;
