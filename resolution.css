@@ -422,4 +422,9 @@
         margin-right: 25px;
     }
 
+    form{
+        margin-left: -134px;;
+        justify-content: normal;
+    
+    }
 }    
