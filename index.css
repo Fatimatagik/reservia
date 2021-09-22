@@ -158,7 +158,6 @@ form i{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 50%;
     margin-top: 3px;
     /*border: blue 1px ;*/
     height: 20%;
