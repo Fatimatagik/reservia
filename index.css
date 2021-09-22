@@ -179,9 +179,11 @@ form i{
 
 .filtre-body:hover{
     cursor: pointer;
-    background-color: blueviolet
-    ;
+    background-color: #0065FC;
+    
 }
+
+
 
 #search-body{
     width: 30%;
@@ -345,7 +347,7 @@ margin: 0%;
 
 .annonce-hebergement:hover{
     cursor: pointer;
-    background-color: blueviolet;
+    background-color:#0065FC;
 }
 
 .annonce-container-hebergement h3, .annonce-container-hebergement p{
@@ -421,7 +423,7 @@ i{
 }
 .hebergement-populaire:hover{
     cursor: pointer;
-    background-color: blueviolet;
+    background-color:#0065FC;
 }
 
 /*
@@ -558,9 +560,9 @@ i{
     
 }
 
-.annonce-activite:hover{
+.annonce-activite figure:hover{
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: #0065FC;
 }
 
 .flexcolumn{
