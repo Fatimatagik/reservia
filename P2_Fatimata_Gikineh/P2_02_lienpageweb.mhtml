@@ -1,16 +1,16 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: https://fatimatagik.github.io/reservia/
 Subject: reservia
-Date: Mon, 6 Sep 2021 08:07:54 -0000
+Date: Wed, 22 Sep 2021 08:11:48 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----"
+	boundary="----MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----"
 
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: text/html
-Content-ID: <frame-BD4D04DDBCAD6575C6177F2C7C5F2C22@mhtml.blink>
+Content-ID: <frame-8FC98CF569B2A48D5CEB46BDE5E1CA80@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/
 
@@ -49,9 +49,9 @@ ervia/photo/images/logo/Reservia@3x.png" alt=3D"logo">
             <nav id=3D"menu">
                 <ul>
                     <li id=3D"heber"><a href=3D"https://fatimatagik.github.=
-io/reservia/#">H=C3=A9bergement</a> </li>
+io/reservia/#hebergement-nav">H=C3=A9bergement</a> </li>
                     <li id=3D"activites"><a href=3D"https://fatimatagik.git=
-hub.io/reservia/#">Activit=C3=A9s</a></li>
+hub.io/reservia/#activites-nav">Activit=C3=A9s</a></li>
                     <li id=3D"inscription"><a href=3D"https://fatimatagik.g=
 ithub.io/reservia/#">S'inscrire</a> </li>
                     <!--Mettre l'ancre sur onglet "h=C3=A9bergement et Acti=
@@ -152,7 +152,8 @@ s recherch=C3=A9s comportant
                 <!-- partie h=C3=A9bergement de Marseille-->
 
                 <div id=3D"heb-title">
-                    <h2>H=C3=A9bergement =C3=A0 Marseille</h2>
+                    <h2 id=3D"hebergement-nav">H=C3=A9bergement =C3=A0 Mars=
+eille</h2>
                 </div>
 
                 <div class=3D"heb-box-cards">
@@ -248,7 +249,7 @@ jpg" alt=3D"lits en bois">
                                     <span class=3D"icone-etoile"><i class=
 =3D"fas fa-star"></i><i class=3D"fas fa-star"></i><i class=3D"fas fa-star">=
 </i><i class=3D"fas fa-star"></i><i class=3D"fas fa-star gris"></i></span>
-                                    </div>
+                                </div>
                             </figcaption>
                         </figure>
                     </div>
@@ -294,12 +295,12 @@ m.jpg" alt=3D"chambre verte">
                             <figcaption>
                                 <div class=3D"body-pop">
                                     <div class=3D"descrip-pop">
-                                        <div class=3D"titre-pop">H=C3=B4tel=
- le soleil du Matin</div>
+                                        <h3 class=3D"titre-pop">H=C3=B4tel =
+le soleil du Matin</h3>
                                     </div>
                                     <div class=3D"descrip-pop">
-                                        <div>Nuit =C3=A0 parir de 115=E2=82=
-=AC</div>
+                                        <p>Nuit =C3=A0 parir de 115=E2=82=
+=AC</p>
                                     </div>
                                     <span class=3D"descrip-pop"><i class=3D=
 "fas fa-star"></i><i class=3D"fas fa-star"></i><i class=3D"fas fa-star"></i=
@@ -317,12 +318,12 @@ g" alt=3D"chambre mezzanine">
                             <figcaption>
                                 <div class=3D"body-pop">
                                     <div class=3D"descrip-pop">
-                                        <div class=3D"titre-pop">Au Coeur d=
-e l'eau Chambres d'h=C3=B4te</div>
+                                        <h3 class=3D"titre-pop">Au Coeur de=
+ l'eau Chambres d'h=C3=B4te</h3>
                                     </div>
                                     <div class=3D"descrip-pop">
-                                        <div>Nuit =C3=A0 partir de 71=E2=82=
-=AC</div>
+                                        <p>Nuit =C3=A0 partir de 71=E2=82=
+=AC</p>
                                     </div>
                                     <span class=3D"descrip-pop"><i class=3D=
 "fas fa-star"></i><i class=3D"fas fa-star"></i><i class=3D"fas fa-star"></i=
@@ -342,8 +343,8 @@ ria-sj-m.jpg" alt=3D"grand lit">
                             <figcaption>
                                 <div class=3D"body-pop">
                                     <div class=3D"descrip-pop">
-                                        <div class=3D"titre-pop">H=C3=B4tel=
- Tout Bleu et Blanc</div>
+                                        <h3 class=3D"titre-pop">H=C3=B4tel =
+Tout Bleu et Blanc</h3>
                                     </div>
                                     <div class=3D"descrip-pop">
                                         <p>Nuit =C3=A0 partir de 69=E2=82=
@@ -366,7 +367,8 @@ ria-sj-m.jpg" alt=3D"grand lit">
         <section class=3D"partie-marseille">
             <!-- mettre une classe-->
             <div id=3D"title-act">
-                <h2>Activit=C3=A9s =C3=A0 Marseille</h2>
+                <h2 id=3D"activites-nav">Activit=C3=A9s =C3=A0 Marseille</h=
+2>
             </div>
 
 
@@ -518,7 +520,7 @@ istance d=C3=A9crivant les modalit=C3=A9s de l'entreprise"-->
 
 
 </body></html>
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/index.css
@@ -529,30 +531,27 @@ body { font-family: Raleway, sans-serif; margin: 0px; }
 
 .pad-body { padding-left: 2%; }
 
-header { display: flex; height: 50px; width: 98%; justify-content: space-be=
-tween; font-size: 85%; padding-top: 30px; }
+header { display: flex; width: 98%; justify-content: space-between; font-si=
+ze: 85%; padding-top: 30px; }
 
-.head-nav { display: flex; justify-content: flex-end; height: 100%; width: =
-90%; }
+.head-nav { display: flex; justify-content: flex-end; width: 90%; }
 
 h1 { justify-content: flex-start; }
 
-#logo { height: 15px; width: 10%; }
-
 #photo-logo { height: 50px; width: 100px; }
 
-nav { justify-content: flex-end; width: 40%; height: 100px; }
+nav { justify-content: flex-end; width: 40%; }
 
 ul { display: flex; justify-content: space-around; list-style: none; flex-d=
 irection: row; }
 
-a { text-decoration: none; color: black; padding-top: 20px; border-top: 2px=
- solid transparent; padding-left: 20px; padding-right: 20px; }
+.head-nav a { text-decoration: none; color: black; padding-top: 20px; borde=
+r-top: 2px solid transparent; display: block; }
 
-a:visited { color: black; }
+.head-nav a:visited { color: black; }
 
-a:hover { color: rgb(0, 101, 252); border-top: 2px solid rgb(0, 101, 252); =
-}
+.head-nav a:hover { color: rgb(0, 101, 252); border-top: 2px solid rgb(0, 1=
+01, 252); }
 
 #activite { color: black; }
 
@@ -581,11 +580,13 @@ order-bottom-right-radius: 10px; border-top-right-radius: 10px; }
 x; text-align: center; }
 
 .filtre-listing { display: flex; justify-content: space-between; flex-direc=
-tion: row; width: 50%; margin-top: 3px; height: 20%; align-items: center; }
+tion: row; margin-top: 3px; height: 20%; align-items: center; }
 
 .filtre-body { display: flex; flex-direction: row; margin-left: 5%; backgro=
 und: white; border: 2px solid rgb(242, 242, 242); border-radius: 28px; alig=
 n-items: center; height: 25%; justify-content: flex-start; }
+
+.filtre-body:hover { cursor: pointer; background-color: rgb(0, 101, 252); }
 
 #search-body { width: 30%; display: flex; justify-content: start; padding: =
 3px; flex-direction: row; margin-bottom: 1%; height: 35px; }
@@ -616,11 +617,11 @@ fy-content: center; width: 40px; height: 40px; }
 h: 65%; display: flex; flex-direction: column; padding: 1%; align-items: ce=
 nter; height: 87%; border-radius: 13px; }
 
-.media-hebergement { border-top-left-radius: 10%; width: 100%; margin: 0%; =
-}
+.media-hebergement { border-top-left-radius: 10px; width: 100%; margin: 0%;=
+ }
 
 .image-item { height: 100px; object-fit: cover; width: 100%; border-top-lef=
-t-radius: 10px; border-top-right-radius: 10px; padding: 1%; }
+t-radius: 10px; border-top-right-radius: 10px; }
 
 .heb-box-cards { display: flex; flex-direction: row; width: 100%; margin: 5=
 px 5px 20px; justify-content: space-around; }
@@ -628,15 +629,21 @@ px 5px 20px; justify-content: space-around; }
 .heb-box-cards2 { display: flex; flex-direction: row; width: 100%; margin: =
 5px; justify-content: space-around; }
 
-.annonce-hebergement { display: flex; flex-direction: column; justify-conte=
-nt: center; border-radius: 10px; background-color: white; width: 29%; paddi=
-ng: 1%; box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px 1px; }
+.annonce-hebergement { display: flex; flex-direction: column; border-radius=
+: 10px; background-color: white; width: 29%; padding: 1%; box-shadow: rgba(=
+0, 0, 0, 0.6) 1px 1px 15px 1px; }
+
+.annonce-hebergement:hover { cursor: pointer; background-color: rgb(0, 101,=
+ 252); }
+
+.annonce-container-hebergement h3, .annonce-container-hebergement p { margi=
+n: 0px 0px 6px; }
 
 .body-image { display: flex; justify-content: flex-start; flex-direction: c=
-olumn; line-height: 5%; }
+olumn; }
 
 #affiche-space { display: flex; justify-content: start; width: 100%; font-w=
-eight: bold; }
+eight: bold; margin-top: 33px; }
 
 #affiche-space p { padding-left: 10px; }
 
@@ -647,33 +654,37 @@ i { color: rgb(0, 101, 252); }
 .gris { color: gray; }
 
 #pop-title { font-size: 85%; display: flex; justify-content: start; width: =
-100%; margin-bottom: 1%; }
+100%; }
 
 .annonces-contenaire-populaires { background-color: rgb(242, 242, 242); wid=
 th: 25%; margin-left: 40px; padding: 1%; flex-direction: column; place-cont=
 ent: space-between center; height: 87%; border-radius: 13px; }
 
-.image-pop { width: 30%; object-fit: cover; border-top-left-radius: 10px; b=
+.hebergement-populaire:hover { cursor: pointer; background-color: rgb(0, 10=
+1, 252); }
+
+.image-pop { width: 48%; object-fit: cover; border-top-left-radius: 10px; b=
 order-bottom-left-radius: 10px; display: flex; justify-content: flex-start;=
  }
 
 #zakaria-pict { height: 111px; display: flex; flex-direction: row; }
 
-.populaire-pop { display: flex; flex-direction: column; margin-top: -46px; =
-justify-content: center; }
+.populaire-pop { display: flex; flex-direction: column; justify-content: ce=
+nter; }
 
-.hebergement-populaire { display: flex; margin-top: 13%; flex-direction: ro=
-w; align-items: center; border-radius: 10px; background-color: white; paddi=
-ng: 2%; height: 30%; width: 92%; box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15p=
-x 1px; }
+.hebergement-populaire { display: flex; margin-bottom: 11%; flex-direction:=
+ row; align-items: center; border-radius: 10px; background-color: white; pa=
+dding: 2%; width: 92%; box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px 1px; }
 
-.figure-pop { display: flex; flex-direction: row; margin: 0%; }
+.figure-pop { display: flex; flex-direction: row; margin: 0%; height: 127px=
+; width: 100%; }
 
-.descrip-pop { display: flex; text-align: start; margin-left: 2%; }
+.descrip-pop { display: flex; text-align: start; margin-left: 2%; margin-bo=
+ttom: 23px; }
 
-.body-pop { align-items: flex-start; width: 100%; }
+.body-pop { width: 100%; height: 100%; }
 
-.partie-marseille { display: flex; flex-direction: column; width: 98%; marg=
+.partie-marseille { display: flex; flex-direction: column; width: 95%; marg=
 in-bottom: 50px; }
 
 #title-act { display: flex; justify-content: flex-start; }
@@ -689,6 +700,9 @@ t: space-between; height: 400px; }
 .annonce-act30 { height: 30%; }
 
 .annonce-activite { justify-content: space-between; }
+
+.annonce-activite figure:hover { cursor: pointer; background-color: rgb(0, =
+101, 252); }
 
 .flexcolumn { display: flex; flex-direction: column; }
 
@@ -727,10 +741,12 @@ stify-content: center; }
 
 .descrip-pop h3 { margin: 0px; }
 
+.descrip-pop p { margin: 0px; }
+
 footer #part1 { margin-right: 15%; padding-left: 5%; }
 
 footer #part2 { margin-right: 25%; }
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400&display=swap
@@ -898,7 +914,7 @@ nt-display: swap; src: url("https://fonts.gstatic.com/s/raleway/v22/1Ptug8z=
 YS_SKggPNyC0ITw.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+15=
 2-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122,=
  U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/fontawesome/css/all.min.css
@@ -3956,7 +3972,7 @@ rmat("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("..=
 .fa, .far, .fas { font-family: "Font Awesome 5 Free"; }
 
 .fa, .fas { font-weight: 900; }
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/resolution.css
@@ -3967,50 +3983,74 @@ Content-Location: https://fatimatagik.github.io/reservia/resolution.css
   .activites-contenaires { width: 100%; }
   .annonce-activite { width: 23%; }
   ul { padding: 0px; }
+  .descrip-pop { margin-bottom: 20px; }
+  .descrip-pop p { margin-bottom: 6px; }
+  .body-pop h3 { margin: 0px; }
+  .image-pop { width: 29%; }
+  .annonce-container-hebergement h3 { font-size: medium; }
+  .annonces-contenaire-populaires h3 { font-size: medium; }
 }
 
 @media screen and (max-width: 768px) {
-  #logo { margin-top: -30px; }
   form { margin-left: -137px; }
   h1 { width: 100%; }
+  nav { width: 54%; }
   .container-search { padding-left: 16%; }
-  main { width: 100%; }
+  main { width: 96%; }
   .head-nav { width: 100%; }
-  #inscription { position: absolute; top: 20px; right: 2px; }
-  a:hover { border-top: none; border-bottom: 2px solid rgb(0, 101, 252); }
+  .filtre-listing { flex-flow: wrap; }
   .annonce-container { flex-direction: column-reverse; height: auto; }
-  .annonce-container-hebergement { margin-top: 5%; width: 98%; background-c=
+  .annonce-container-hebergement { margin-top: 5%; width: 96%; background-c=
 olor: white; }
-  .heb-box-cards { flex-direction: column; }
-  .annonce-hebergement { width: 89%; padding: 2%; margin-bottom: 11%; }
-  .heb-box-cards2 { flex-direction: column; }
+  .heb-box-cards { flex-direction: column; margin: 0px; }
+  .annonce-hebergement { width: 96%; padding: 1%; margin-bottom: 11%; }
+  .heb-box-cards2 { flex-direction: column; margin: 0px; }
   .annonces-contenaire-populaires { width: 96%; margin: 0px; padding: 2%; h=
 eight: 28%; }
+  .hebergement-populaire { width: 96%; }
   .activites-contenaires { flex-direction: column; padding: 2%; height: ini=
 tial; width: 96%; }
   .annonce-activite figure { height: 241px; }
+  .partie-marseille { width: 98%; }
   .annonce-activite { margin-bottom: 11%; width: 96%; }
   .annonce-act50 { margin-bottom: 11%; }
   .annonce-act30 { margin-bottom: 11%; }
   .image-activite { width: 693px; }
-  header { width: 100%; }
-  .pad-body { padding-left: 0px; }
+  header { width: 96%; }
+  .pad-body header { padding-left: 0px; }
+  .pad-body { padding-left: 2px; }
+  #part1 { margin-right: 11%; }
+  footer #part2 { margin-right: 13%; }
+  footer .pad-body { padding-left: 0px; }
+  footer { flex-flow: wrap; }
+}
+
+@media screen and (max-width: 618px) {
+  .filter-card { width: 96%; }
+}
+
+@media screen and (max-width: 591px) {
+  nav { width: 64%; }
+  form { margin-left: -94px; }
+  .marker { width: 9%; }
+  footer #part2 { margin-right: 20%; }
 }
 
 @media screen and (max-width: 425px) {
   body { margin: 2px; }
   #logo { position: absolute; }
   header { width: 100%; }
-  .head-nav { margin-top: 10%; width: 100%; }
+  .head-nav { margin-top: 64px; width: 100%; margin-right: 0px; }
   #menu { width: 100%; }
-  a:hover { color: rgb(0, 101, 252); border-bottom: 2px solid rgb(0, 101, 2=
-52); border-top: none; }
-  li { font-size: large; }
-  ul { margin: 0px 0px 0px 68px; }
-  #heber { margin-right: 48px; }
-  #activites { font-size: large; margin-right: 67px; }
+  #inscription { position: absolute; top: 20px; right: 2px; }
+  .head-nav a:hover { color: rgb(0, 101, 252); border-bottom: 2px solid rgb=
+(0, 101, 252); border-top: none; padding-bottom: 10px; }
+  li { font-size: large; text-align: center; }
+  ul { margin: 0px; align-items: center; }
+  #heber { width: 50%; }
+  #activites { font-size: large; width: 50%; }
   h1 { width: 100%; }
-  form { display: flex; justify-content: start; }
+  form { display: flex; justify-content: center; }
   .marker { width: 35px; }
   .marseille-france { width: 168px; }
   .container-search { margin-left: 49px; }
@@ -4030,8 +4070,9 @@ tial; width: 96%; }
   .container-search { margin-left: 64px; }
   header { width: 100%; }
   #heber { margin-right: 25px; }
+  form { margin-left: -134px; justify-content: normal; }
 }
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/logo/Reservia@3x.png
@@ -4204,7 +4245,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANh9/h88p1g5
 MMdUEQAAAABJRU5ErkJggg==
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/2_large/marcus-loke-l.jpg
@@ -12832,7 +12873,7 @@ bqtbmaVRzfQr0Wk/KBq2mgMNY1GDkV5hC3M8ompX1nSvlVoVg1t0w03bS0/0XsNM7a2100Gncsf5
 EwV+dlbRuq1u4OpVHMI6FdZzfti8c+H6htu0NF48Rj1K6dDUaNUYcD6L8y2HbLUbNwmq57Rylet0
 v5TGAtFeaZ6rtLhl1XOzLF92FRpEghC+bWXb2lUoAtuKf+9uha8GfN//2Q==
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/fred-kleber-m.jpg
@@ -14225,7 +14266,7 @@ z6S9kOFShjoq9vsajtxWcX5r5HgnF2efB5H3DpFs1bW2PVw7S3qkLRb4TjnH9UfGKuGcKji1Zp2a
 7jlW+L7FU6vR2K7qEF+SOBVlmkegxS3dhtd1OK+R52tqjVSPH4XP6Ssa/wBxfyo99Sf2aPnuz57/
 ANI+Ob4K3wSPoFJ/ZrkbnTFOZWTkQbNIdwIgB//Z
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/reisetopia-m.jpg
@@ -16656,7 +16697,7 @@ oUUVBLWvEpCxzdDKiigrJLdRBRDgVFEBQJB1UUVQIlA81FFUS4Q5hRRWBYnqgootIBEqpzS02uoo
 gIOYWUiFFFAsIEKKIAgoogUpHBRRBXoSSq3nM4KKIErPyMXHxzstUTqoogy0XAVz0WbFYprK5Dje
 FFEH/9k=
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/annie-spratt-m.jpg
@@ -18162,7 +18203,7 @@ R5qM7DmaRW6ELnPLr8KngNkLW6c9la6BpirnvZQhW/CRluiWnUhJ7s0Ad+bUjwQhbcjizGA5jdkn
 cTbcj9Dbg0g+PNCFMEybA18LgWvLm7Frv3Vk84hYHEXaEKVr4ZpMRKHjVo15BSixd4r6u9gDqu27
 IQtWTTMt20TSiKJzyCQ0XohCFnGN2v/Z
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/4_small/nicate-lee-kT-s.jpg
@@ -18762,7 +18803,7 @@ VG3Dvg5vmFMluhxM+/8AmHm23JFZ/sNrnKB8ELldeeS3LRFqkAwafg+S0ZAEmPp7dlkfklIp2+CA
 zj94NkVc8upx4JS6HHYa6UW1VGreXsOmyINpHPpjLplarowFseEGoldmc4XAVwg2RKaRmZInuIs2
 +gSxUk0rMzGEi9rrXMoIabAulLQXlu9kuEsDcPZZo112W60zB6h//9k=
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/4_small/febrian-zakaria-s.jpg
@@ -19333,7 +19374,7 @@ BHbt8Avc+EP/ALawfsF6cLvDKPLbrKac+OsTcbqu5nWNradysRfR80yX5xy8Ee6Kz+/dQObcjsUj
 vV8x8UHeoVNKdh05p6xkzHFrmkHwK9Wma2u9BxaIC8seSS3avJI/WC9W4c/8kQ/tPvXt/j27sebn
 7xlZeM0+eUOHakrlb96S7ZceNu6xhlfF/9k=
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/emile-guillemot-m.jpg
@@ -20921,7 +20962,7 @@ ACUIQgBEqEIAEIQgAQhCABCEIAEIQgAQhCBAhCEACEIQAIQhAAhCEACEIQAIQhABdIEIQAIQhAAk
 QhMASIQgBEFCEIBqaUIVANJTShCYDSoyhCYEbyonOQhNCK8jiqkshQhaollCecjYLPnqHWOiELoi
 ZMya2qe0aLAr6t4BQhdMDmyvYxJ5nON0IQrs5kj/2Q==
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/aw-creative-m.jpg
@@ -23137,7 +23178,7 @@ NOfOhzervrci4Q2sOHKoFA1BAB9tdXUEN7gtlc2V010PRdA3CVNKKSdY62sK9NDWeEWVnbu2HQJe
 t3gCtLxKpMgSOz0dldXVqM/LFYrYW1hcO2tuyEo6RYzEkq6p050PhtsbtaQu4fAKVDqr2AIEeFdX
 VtmCg6u6w3o1qypaBUAgBMkEgUx23RZ2PlDBUheaNFGO811dQf/Z
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/febrian-zakaria-sj-m.jpg
@@ -24865,7 +24906,7 @@ p6Yb+RocViO3I6kV4fyZNG2BUMN7bOSK7z36r9FwdBQTqY8otmKtFNyffOCWdabl7SS0tZS2gThJ
 KUknxgGsOW74Km9p423LERw8qXm33JJaYrPaI4bwSfqNRUo5e+HgVVFTKk8ds9gDGqjl85YHPbcf
 /9k=
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/reno-laithienne-m.jpg
@@ -28677,7 +28718,7 @@ RRUs1YrD2baEYjdh6Hmmm0+5hHKhgPKiiuV4RucqbbcnDqVPqKQPiiiuNdZddiQ4610shxRRUV0H
 z1rpWBU0UUAMHil2jyoooOSg8BilV3U8OfnRRRY7E7594A1132euRRRSBt0DDqDTDxEdCaKKIizx
 tIhV2Zh5E1D9jTP2aKKntX//2Q==
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/paul-hermann-m.jpg
@@ -30441,7 +30482,7 @@ a8bbPPAA0ircQMOWX8w+1VCbf5hnhmAjxhom6Gq9rfzoAA2QeMGtSO2huoiJYlO4ZOBiuku3Pxzm
 ssDTwLNBK4Acfw/Wrs8cNpKJYlREkPOBjmrd9p8Fxa+GwIT0U4rO1a2VNGVdzHwyMEnk/WseOk7X
 ViSBw8LAFuooqiXI01HB8y8Cim10/9k=
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/kevin-hikari-m.jpg
@@ -32382,7 +32423,7 @@ Y7pm8XyWnzLd4HKdRH0JuewjmnbmxnmfzXz5vxA+M+YhXRcf1f8AyfRZvC3OaPe/MsPZETMPVeJZ
 x/fT4gVrONm68QfQrPo1qc0vy9jra7sp5e4XlmcY7vV7eMN6v/NZvFWpyR6AtCHhg9lxm8bZVE/m
 i3jjC6ifzWeyxrvjrGEVuqzA0+qyN4qx4sG/qnbxBp50p21ZnH//2Q==
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/kilyan-sockalingum-m.jpg
@@ -35072,7 +35113,7 @@ fCIyf+2D+ppUq7cXK/XQQXczI0jSFnjKlGO5X2NaicQubTioghmKxOwLIQCDkDOxpUqcvjU+uj4m
 PCKlMqdOdjQz20Nwg8eNZcoPzjV+/KlSrhG65P4htIeGyRNZp4JO/lJ5113BHafhUbyMSx7HH7Uq
 Vbvxl//Z
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/florian-wehde-m.jpg
@@ -38764,7 +38805,7 @@ AKS4GVz8uRn5jvTjVfLasOrSIejyuutStqc92uj3QYpJHOTDGGBJLYGCfbtnjnpVmdK0XJ33Hq75
 uyOfpjisJbeIp9IaGGYm5Takb25A8tlXdhgeoYZ9u5rY22lyXNrFO7wF5UDsTbpkkjPtWmXE4tNi
 tro//9k=
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL----
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/lena-paulin-m.jpg
@@ -40800,4 +40841,4 @@ ipdqpaiVQTG53ppeUAY6TzoorNVY64pYSVkqjacxUdRJzzoorIrLihMK3qPvKm0k6W1T/EkGiiqI
 FZV4eWKgZVgmiitxEQNJhJImpoUVJyZoopQ+dIAQaKKirGmwqckUiSFETRRQV6Qok86Y6UUVUE4N
 MCT60UVBA7Tz2oiiiqADBo2oooAGT6TTBzRRQSSM7kY5U9M8zRRUD0AAwTSSPE7UUUH/2Q==
 
-------MultipartBoundary--TJKQEYqVQyS1uvJyuM7i9svLAoL3bsmG2cvRFMEiGL------
+------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F------
