@@ -1,16 +1,16 @@
 From: <Saved by Blink>
 Snapshot-Content-Location: https://fatimatagik.github.io/reservia/
 Subject: reservia
-Date: Wed, 22 Sep 2021 08:11:48 -0000
+Date: Fri, 24 Sep 2021 13:41:20 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----"
+	boundary="----MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----"
 
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: text/html
-Content-ID: <frame-8FC98CF569B2A48D5CEB46BDE5E1CA80@mhtml.blink>
+Content-ID: <frame-00EFFDDC930CFD379196B1F63DCA3936@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/
 
@@ -520,7 +520,7 @@ istance d=C3=A9crivant les modalit=C3=A9s de l'entreprise"-->
 
 
 </body></html>
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/index.css
@@ -586,7 +586,7 @@ tion: row; margin-top: 3px; height: 20%; align-items: center; }
 und: white; border: 2px solid rgb(242, 242, 242); border-radius: 28px; alig=
 n-items: center; height: 25%; justify-content: flex-start; }
 
-.filtre-body:hover { cursor: pointer; background-color: rgb(0, 101, 252); }
+.filtre-body:hover { cursor: pointer; opacity: 0.8; }
 
 #search-body { width: 30%; display: flex; justify-content: start; padding: =
 3px; flex-direction: row; margin-bottom: 1%; height: 35px; }
@@ -633,8 +633,7 @@ px 5px 20px; justify-content: space-around; }
 : 10px; background-color: white; width: 29%; padding: 1%; box-shadow: rgba(=
 0, 0, 0, 0.6) 1px 1px 15px 1px; }
 
-.annonce-hebergement:hover { cursor: pointer; background-color: rgb(0, 101,=
- 252); }
+.annonce-hebergement:hover { cursor: pointer; opacity: 0.8; }
 
 .annonce-container-hebergement h3, .annonce-container-hebergement p { margi=
 n: 0px 0px 6px; }
@@ -660,8 +659,7 @@ i { color: rgb(0, 101, 252); }
 th: 25%; margin-left: 40px; padding: 1%; flex-direction: column; place-cont=
 ent: space-between center; height: 87%; border-radius: 13px; }
 
-.hebergement-populaire:hover { cursor: pointer; background-color: rgb(0, 10=
-1, 252); }
+.hebergement-populaire:hover { cursor: pointer; opacity: 0.8; }
 
 .image-pop { width: 48%; object-fit: cover; border-top-left-radius: 10px; b=
 order-bottom-left-radius: 10px; display: flex; justify-content: flex-start;=
@@ -701,8 +699,7 @@ t: space-between; height: 400px; }
 
 .annonce-activite { justify-content: space-between; }
 
-.annonce-activite figure:hover { cursor: pointer; background-color: rgb(0, =
-101, 252); }
+.annonce-activite figure:hover { cursor: pointer; opacity: 0.8; }
 
 .flexcolumn { display: flex; flex-direction: column; }
 
@@ -730,8 +727,8 @@ footer { background-color: rgb(242, 242, 242); display: flex; width: 100%; =
 
 .filtre { font-size: 1.5em; height: 10%; }
 
-.filtre-button { background: white; width: 100%; height: 100%; display: fle=
-x; text-align: center; border: none; }
+.filtre-button { background: transparent; width: 100%; height: 100%; displa=
+y: flex; text-align: center; border: none; }
 
 .badge { width: 53px; height: 40px; border-radius: 50%; background-color: r=
 gb(222, 235, 255); display: flex; align-items: center; font-size: 0.5em; ju=
@@ -746,7 +743,7 @@ stify-content: center; }
 footer #part1 { margin-right: 15%; padding-left: 5%; }
 
 footer #part2 { margin-right: 25%; }
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400&display=swap
@@ -914,7 +911,7 @@ nt-display: swap; src: url("https://fonts.gstatic.com/s/raleway/v22/1Ptug8z=
 YS_SKggPNyC0ITw.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+15=
 2-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122,=
  U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/fontawesome/css/all.min.css
@@ -3972,7 +3969,7 @@ rmat("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("..=
 .fa, .far, .fas { font-family: "Font Awesome 5 Free"; }
 
 .fa, .fas { font-weight: 900; }
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://fatimatagik.github.io/reservia/resolution.css
@@ -3983,7 +3980,7 @@ Content-Location: https://fatimatagik.github.io/reservia/resolution.css
   .activites-contenaires { width: 100%; }
   .annonce-activite { width: 23%; }
   ul { padding: 0px; }
-  .descrip-pop { margin-bottom: 20px; }
+  .descrip-pop { margin-bottom: 13px; }
   .descrip-pop p { margin-bottom: 6px; }
   .body-pop h3 { margin: 0px; }
   .image-pop { width: 29%; }
@@ -4036,15 +4033,21 @@ tial; width: 96%; }
   footer #part2 { margin-right: 20%; }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 676px) {
   body { margin: 2px; }
   #logo { position: absolute; }
   header { width: 100%; }
   .head-nav { margin-top: 64px; width: 100%; margin-right: 0px; }
   #menu { width: 100%; }
   #inscription { position: absolute; top: 20px; right: 2px; }
+  .head-nav a { border-bottom: 2px solid rgb(242, 242, 242); padding-bottom=
+: 10px; }
   .head-nav a:hover { color: rgb(0, 101, 252); border-bottom: 2px solid rgb=
 (0, 101, 252); border-top: none; padding-bottom: 10px; }
+  .head-nav #inscription a:hover { border-bottom: none; padding-bottom: 0px=
+; }
+  .head-nav #inscription a { color: rgb(0, 101, 252); border-bottom: 2px so=
+lid transparent; }
   li { font-size: large; text-align: center; }
   ul { margin: 0px; align-items: center; }
   #heber { width: 50%; }
@@ -4072,7 +4075,7 @@ tial; width: 96%; }
   #heber { margin-right: 25px; }
   form { margin-left: -134px; justify-content: normal; }
 }
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/logo/Reservia@3x.png
@@ -4245,7 +4248,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANh9/h88p1g5
 MMdUEQAAAABJRU5ErkJggg==
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/2_large/marcus-loke-l.jpg
@@ -12873,7 +12876,7 @@ bqtbmaVRzfQr0Wk/KBq2mgMNY1GDkV5hC3M8ompX1nSvlVoVg1t0w03bS0/0XsNM7a2100Gncsf5
 EwV+dlbRuq1u4OpVHMI6FdZzfti8c+H6htu0NF48Rj1K6dDUaNUYcD6L8y2HbLUbNwmq57Rylet0
 v5TGAtFeaZ6rtLhl1XOzLF92FRpEghC+bWXb2lUoAtuKf+9uha8GfN//2Q==
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/fred-kleber-m.jpg
@@ -14266,7 +14269,7 @@ z6S9kOFShjoq9vsajtxWcX5r5HgnF2efB5H3DpFs1bW2PVw7S3qkLRb4TjnH9UfGKuGcKji1Zp2a
 7jlW+L7FU6vR2K7qEF+SOBVlmkegxS3dhtd1OK+R52tqjVSPH4XP6Ssa/wBxfyo99Sf2aPnuz57/
 ANI+Ob4K3wSPoFJ/ZrkbnTFOZWTkQbNIdwIgB//Z
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/reisetopia-m.jpg
@@ -16697,7 +16700,7 @@ oUUVBLWvEpCxzdDKiigrJLdRBRDgVFEBQJB1UUVQIlA81FFUS4Q5hRRWBYnqgootIBEqpzS02uoo
 gIOYWUiFFFAsIEKKIAgoogUpHBRRBXoSSq3nM4KKIErPyMXHxzstUTqoogy0XAVz0WbFYprK5Dje
 FFEH/9k=
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/annie-spratt-m.jpg
@@ -18203,7 +18206,7 @@ R5qM7DmaRW6ELnPLr8KngNkLW6c9la6BpirnvZQhW/CRluiWnUhJ7s0Ad+bUjwQhbcjizGA5jdkn
 cTbcj9Dbg0g+PNCFMEybA18LgWvLm7Frv3Vk84hYHEXaEKVr4ZpMRKHjVo15BSixd4r6u9gDqu27
 IQtWTTMt20TSiKJzyCQ0XohCFnGN2v/Z
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/4_small/nicate-lee-kT-s.jpg
@@ -18803,7 +18806,7 @@ VG3Dvg5vmFMluhxM+/8AmHm23JFZ/sNrnKB8ELldeeS3LRFqkAwafg+S0ZAEmPp7dlkfklIp2+CA
 zj94NkVc8upx4JS6HHYa6UW1VGreXsOmyINpHPpjLplarowFseEGoldmc4XAVwg2RKaRmZInuIs2
 +gSxUk0rMzGEi9rrXMoIabAulLQXlu9kuEsDcPZZo112W60zB6h//9k=
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/4_small/febrian-zakaria-s.jpg
@@ -19374,7 +19377,7 @@ BHbt8Avc+EP/ALawfsF6cLvDKPLbrKac+OsTcbqu5nWNradysRfR80yX5xy8Ee6Kz+/dQObcjsUj
 vV8x8UHeoVNKdh05p6xkzHFrmkHwK9Wma2u9BxaIC8seSS3avJI/WC9W4c/8kQ/tPvXt/j27sebn
 7xlZeM0+eUOHakrlb96S7ZceNu6xhlfF/9k=
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/emile-guillemot-m.jpg
@@ -20962,7 +20965,7 @@ ACUIQgBEqEIAEIQgAQhCABCEIAEIQgAQhCBAhCEACEIQAIQhAAhCEACEIQAIQhABdIEIQAIQhAAk
 QhMASIQgBEFCEIBqaUIVANJTShCYDSoyhCYEbyonOQhNCK8jiqkshQhaollCecjYLPnqHWOiELoi
 ZMya2qe0aLAr6t4BQhdMDmyvYxJ5nON0IQrs5kj/2Q==
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/aw-creative-m.jpg
@@ -23178,7 +23181,7 @@ NOfOhzervrci4Q2sOHKoFA1BAB9tdXUEN7gtlc2V010PRdA3CVNKKSdY62sK9NDWeEWVnbu2HQJe
 t3gCtLxKpMgSOz0dldXVqM/LFYrYW1hcO2tuyEo6RYzEkq6p050PhtsbtaQu4fAKVDqr2AIEeFdX
 VtmCg6u6w3o1qypaBUAgBMkEgUx23RZ2PlDBUheaNFGO811dQf/Z
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/hebergements/3_medium/febrian-zakaria-sj-m.jpg
@@ -24906,7 +24909,7 @@ p6Yb+RocViO3I6kV4fyZNG2BUMN7bOSK7z36r9FwdBQTqY8otmKtFNyffOCWdabl7SS0tZS2gThJ
 KUknxgGsOW74Km9p423LERw8qXm33JJaYrPaI4bwSfqNRUo5e+HgVVFTKk8ds9gDGqjl85YHPbcf
 /9k=
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/reno-laithienne-m.jpg
@@ -28718,7 +28721,7 @@ RRUs1YrD2baEYjdh6Hmmm0+5hHKhgPKiiuV4RucqbbcnDqVPqKQPiiiuNdZddiQ4610shxRRUV0H
 z1rpWBU0UUAMHil2jyoooOSg8BilV3U8OfnRRRY7E7594A1132euRRRSBt0DDqDTDxEdCaKKIizx
 tIhV2Zh5E1D9jTP2aKKntX//2Q==
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/paul-hermann-m.jpg
@@ -30482,7 +30485,7 @@ a8bbPPAA0ircQMOWX8w+1VCbf5hnhmAjxhom6Gq9rfzoAA2QeMGtSO2huoiJYlO4ZOBiuku3Pxzm
 ssDTwLNBK4Acfw/Wrs8cNpKJYlREkPOBjmrd9p8Fxa+GwIT0U4rO1a2VNGVdzHwyMEnk/WseOk7X
 ViSBw8LAFuooqiXI01HB8y8Cim10/9k=
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/kevin-hikari-m.jpg
@@ -32423,7 +32426,7 @@ Y7pm8XyWnzLd4HKdRH0JuewjmnbmxnmfzXz5vxA+M+YhXRcf1f8AyfRZvC3OaPe/MsPZETMPVeJZ
 x/fT4gVrONm68QfQrPo1qc0vy9jra7sp5e4XlmcY7vV7eMN6v/NZvFWpyR6AtCHhg9lxm8bZVE/m
 i3jjC6ifzWeyxrvjrGEVuqzA0+qyN4qx4sG/qnbxBp50p21ZnH//2Q==
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/kilyan-sockalingum-m.jpg
@@ -35113,7 +35116,7 @@ fCIyf+2D+ppUq7cXK/XQQXczI0jSFnjKlGO5X2NaicQubTioghmKxOwLIQCDkDOxpUqcvjU+uj4m
 PCKlMqdOdjQz20Nwg8eNZcoPzjV+/KlSrhG65P4htIeGyRNZp4JO/lJ5113BHafhUbyMSx7HH7Uq
 Vbvxl//Z
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/florian-wehde-m.jpg
@@ -38805,7 +38808,7 @@ AKS4GVz8uRn5jvTjVfLasOrSIejyuutStqc92uj3QYpJHOTDGGBJLYGCfbtnjnpVmdK0XJ33Hq75
 uyOfpjisJbeIp9IaGGYm5Takb25A8tlXdhgeoYZ9u5rY22lyXNrFO7wF5UDsTbpkkjPtWmXE4tNi
 tro//9k=
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F----
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://fatimatagik.github.io/reservia/photo/images/activites/3_medium/lena-paulin-m.jpg
@@ -40841,4 +40844,4 @@ ipdqpaiVQTG53ppeUAY6TzoorNVY64pYSVkqjacxUdRJzzoorIrLihMK3qPvKm0k6W1T/EkGiiqI
 FZV4eWKgZVgmiitxEQNJhJImpoUVJyZoopQ+dIAQaKKirGmwqckUiSFETRRQV6Qok86Y6UUVUE4N
 MCT60UVBA7Tz2oiiiqADBo2oooAGT6TTBzRRQSSM7kY5U9M8zRRUD0AAwTSSPE7UUUH/2Q==
 
-------MultipartBoundary--ZVX5qehYeCwovdw4Ve0EcH7BOFALEGzOOvemRBae4F------
+------MultipartBoundary--W1JO692slwVdMeLGlANbFCzxkBaWOmCMXV05hCH4l8------
