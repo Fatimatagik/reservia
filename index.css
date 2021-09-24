@@ -179,7 +179,7 @@ form i{
 
 .filtre-body:hover{
     cursor: pointer;
-    background-color: #0065FC;
+    opacity: 0.8;
     
 }
 
@@ -347,7 +347,7 @@ margin: 0%;
 
 .annonce-hebergement:hover{
     cursor: pointer;
-    background-color:#0065FC;
+    opacity: 0.8;
 }
 
 .annonce-container-hebergement h3, .annonce-container-hebergement p{
@@ -423,7 +423,7 @@ i{
 }
 .hebergement-populaire:hover{
     cursor: pointer;
-    background-color:#0065FC;
+    opacity: 0.8;
 }
 
 /*
@@ -562,7 +562,7 @@ i{
 
 .annonce-activite figure:hover{
     cursor: pointer;
-    background-color: #0065FC;
+    opacity: 0.8;
 }
 
 .flexcolumn{
